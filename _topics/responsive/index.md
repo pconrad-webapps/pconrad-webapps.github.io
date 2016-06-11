@@ -25,3 +25,6 @@ feasible.  So, an alternative is to use  features of your browser that allow you
 * In Chrome, you can use Chrome's [Device Mode](https://developers.google.com/web/tools/chrome-devtools/iterate/device-mode/?hl=en)
 * Surely, Firefox and Safari have similar features.   I might add mention of them here later.  If you know what they are, fork this repo, edit this page, and send me a pull request.
 
+# CSS Media Queries
+
+http://www.w3schools.com/css/css_rwd_mediaqueries.asp
