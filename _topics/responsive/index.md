@@ -25,6 +25,12 @@ feasible.  So, an alternative is to use  features of your browser that allow you
 * In Chrome, you can use Chrome's [Device Mode](https://developers.google.com/web/tools/chrome-devtools/iterate/device-mode/?hl=en)
 * Surely, Firefox and Safari have similar features.   I might add mention of them here later.  If you know what they are, fork this repo, edit this page, and send me a pull request.
 
+# JQueryMobile
+
+[JQueryMobile](http://jquerymobile.com) is a library based on [JQuery](https://jquery.com) for creating responsive web user interfaces.
+
+* [JQueryMobile 1.4.5 demo](http://demos.jquerymobile.com/1.4.5/intro/) 
+
 # CSS Media Queries
 
 http://www.w3schools.com/css/css_rwd_mediaqueries.asp
