@@ -1,6 +1,8 @@
 ---
 topic: Python
 desc: Python web app frameworks (Flask, Django, Pyramid)
+tags:
+- python
 ---
 
 Python-based web apps can be created in a variety of frameworks, including these:
