@@ -21,3 +21,9 @@ defaults:
       type: topics
     values:
       layout: default
+
+tags:
+- python
+- javscript
+- ruby
+- java
