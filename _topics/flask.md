@@ -1,6 +1,8 @@
 ---
 topic: Flask
 desc: Making Python-based web apps with Flask
+tags:
+- python
 ---
 
 Python-based web apps can be created using Flask.
