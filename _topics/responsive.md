@@ -1,6 +1,9 @@
-# Making Web Sites Reponsive
+---
+topic: Responsive
+desc: Making web sites look good on both desktop on mobile
+---
 
-## What does *responsive* mean?
+# What does *responsive* mean?
 
 The term *responsive* is a term of art in web development meaning, roughly, "the site is easily usable, and looks good, no matter what kind of
 device is used to view the site."

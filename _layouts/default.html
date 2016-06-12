@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  {% include head.html %} 
+  <title>{% if page.topic %} {{ page.topic }} {% endif %} {{ site.name }}</title>
+  </head>
+  <body id="page-top">
+    <div id="container" data-role="page">
+    {% include nav.html %}
+    <div id="content"  class="ui-content">
+      {% if page.topic %}
+         <h2>{{ page.topic }}</h2>
+      {% endif %}
+      {{ content }}
+    </div><!-- content -->
+    {% include footer.html %}
+    </div><!-- container -->
+  </body>
+</html>
