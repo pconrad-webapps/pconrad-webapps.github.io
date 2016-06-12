@@ -1,19 +1,11 @@
 ---
 topic: Python
-desc: Making Python-based web apps with Flask
+desc: Python web app frameworks (Flask, Django, Pyramid)
 ---
 
-Python-based web apps can be created using Flask.
+Python-based web apps can be created in a variety of frameworks, including these:
 
-# Deployment
-
-The following is true of webapps written in Python using Flask:
-
-* They can be deployed in the cloud on [Heroku](/topics/heroku)
-* Continous integration is available through [Travis-CI](/topics/travis-ci/)
-
-# Tutorial information about Flask
-
-Some tutorial information is available at these links.   Eventually I'd like to migrate some of this into this website directly:
-
-* Flask tutorial created for UCSD CSE SPIS 2015: <https://sites.google.com/a/eng.ucsd.edu/spis/home/AcademicProgram/foundations/final-projects/web-apps>
+* [Flask](/topics/flask), a minimalist framework that is easy to learn for beginners
+* Django, not discussed on this site.  See: <https://www.djangoproject.com/>
+* Pyramid, not discussed on this site.  See: <http://www.pylonsproject.org/>
+ 
