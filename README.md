@@ -2,6 +2,8 @@
 
 Stub of a basic Jeykll site
 
+Published at: http://pconrad-webapps.github.io/jekyll-stub/ from gh-pages branch.
+
 Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/pconrad-webapps/jekyll-stub.svg?branch=master)](https://travis-ci.org/pconrad-webapps/jekyll-stub)
 * Click the status image to see this repo on Travis-CI
 * To add a status image like this in your README.md, see [these instructions](https://docs.travis-ci.com/user/status-images/)
