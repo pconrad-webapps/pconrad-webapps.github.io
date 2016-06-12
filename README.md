@@ -9,6 +9,7 @@ TODO: Populate site with information about developing web apps on Heroku, in
 * Java, using SparkJava
 * Ruby, using Rails
 
+Enable Travis-CI for this repo at: https://travis-ci.org/profile/pconrad-webapps
 
 Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/pconrad-webapps/pconrad-webapps.github.io.svg?branch=master)](https://travis-ci.org/pconrad-webapps/pconrad-webapps.github.io)
 
