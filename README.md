@@ -1,15 +1,12 @@
 # pconrad-webapps.github.io
 
-Published at: http://pconrad-webapps.github.io
+This github repo contains the source code for the site: http://pconrad-webapps.github.io
 
-TODO: Populate site with information about developing web apps on Heroku, in
+It uses [Jekyll](https://jekyllrb.com/) and is published via [github-pages](https://pages.github.com/).
 
-* JavaScript, using node.js
-* Python, using Flask
-* Java, using SparkJava
-* Ruby, using Rails
+To contribute content, or make corrections, fork this repo, edit it, and send me a pull request.
 
-Enable Travis-CI for this repo at: https://travis-ci.org/profile/pconrad-webapps
+----
 
 Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/pconrad-webapps/pconrad-webapps.github.io.svg?branch=master)](https://travis-ci.org/pconrad-webapps/pconrad-webapps.github.io)
 
@@ -25,5 +22,3 @@ To test locally:
 * From then on, to test the site locally:
     * Run `./jekyll.sh
     * Point browser to localhost:4000
-
-
