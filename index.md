@@ -1,5 +1,5 @@
 ---
-topic: Jekyll Stub Site
+topic: Phill Conrad's Webapp Tutorial Collection
 ---
 
 ## Topics
@@ -9,3 +9,4 @@ topic: Jekyll Stub Site
 {% endfor %}
 </ul>
 
+Site by: [pconrad at cs.ucsb.edu](http://www.cs.ucsb.edu/~pconrad)
