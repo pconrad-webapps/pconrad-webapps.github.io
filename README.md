@@ -1,6 +1,6 @@
 # jekyll-stub
 
-Stub of a basic Jeykll site
+Stub of a basic Jeykll site.
 
 Published at: http://pconrad-webapps.github.io/jekyll-stub/ from gh-pages branch.
 
