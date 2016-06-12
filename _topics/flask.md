@@ -9,7 +9,7 @@ Python-based web apps can be created using Flask.
 
 # Deployment
 
-The following is true of webapps written in Python using Flask:
+The following is true of webapps written in [Python](/topics/python) using Flask:
 
 * They can be deployed in the cloud on [Heroku](/topics/heroku)
 * Continous integration is available through [Travis-CI](/topics/travis-ci/)
