@@ -5,9 +5,9 @@ topic: Phill Conrad's Webapp Tutorial Collection
 ## Topics
 <ul>
 {% for topic in site.topics %}
- <li><a href="{{topic.url}}">{{ topic.topic }}<a>&mdash;{{topic.desc}}</li>
+ <li><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
 {% endfor %}
 </ul>
 
 
-<p>Site by: [pconrad at cs.ucsb.edu](http://www.cs.ucsb.edu/~pconrad)</p>
+Site by: [pconrad at cs.ucsb.edu](http://www.cs.ucsb.edu/~pconrad)
