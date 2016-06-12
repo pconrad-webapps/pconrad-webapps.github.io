@@ -9,4 +9,5 @@ topic: Phill Conrad's Webapp Tutorial Collection
 {% endfor %}
 </ul>
 
-Site by: [pconrad at cs.ucsb.edu](http://www.cs.ucsb.edu/~pconrad)
+
+<p>Site by: [pconrad at cs.ucsb.edu](http://www.cs.ucsb.edu/~pconrad)</p>
