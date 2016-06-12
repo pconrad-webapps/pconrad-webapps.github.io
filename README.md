@@ -1,20 +1,14 @@
 # pconrad-webapps.github.io
 
-* [Responsive Web Design](_topics/responsive/index.md)  Just a stub for now
+Published at: http://pconrad-webapps.github.io
 
-TODO: Adjust this site's jekyll settings.
-
-Populate it with information about developing web apps on Heroku, in
+TODO: Populate site with information about developing web apps on Heroku, in
 
 * JavaScript, using node.js
 * Python, using Flask
 * Java, using SparkJava
 * Ruby, using Rails
 
-
-Stub of a basic Jeykll site.
-
-Published at: http://pconrad-webapps.github.io
 
 Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/pconrad-webapps/pconrad-webapps.github.io.svg?branch=master)](https://travis-ci.org/pconrad-webapps/pconrad-webapps.github.io)
 
