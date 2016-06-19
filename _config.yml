@@ -1,4 +1,4 @@
-site_name: Jekyll Example
+site_name: "pconrad-webapps"
 github_url: "https://github.com/pconrad-webapps/pconrad-webapps.github.io"
 
 exclude: [vendor]
