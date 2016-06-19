@@ -79,3 +79,6 @@ body {
     
 }
 
+p.topic-summary {
+    font-style: italic;
+}
