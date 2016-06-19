@@ -11,6 +11,9 @@
       {% if page.topic %}
          <h2>{{ page.topic }}</h2>
       {% endif %}
+      {% if page.desc %}
+             <p class="topic-summary">{{ page.desc }}</p>
+      {% endif %}
       {{ content }}
     </div><!-- content -->
     {% include footer.html %}
