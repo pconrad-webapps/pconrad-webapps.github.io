@@ -29,7 +29,7 @@ From [Bower's main web page](https://bower.io/) (retrieved 2016-06-19):
 
 # Using Bower with Jekyll and github pages
 
-* http://www.aymerick.com/2014/07/22/jekyll-github-pages-bower-bootstrap.html
+This [blog post by twitter user @aymerick](http://www.aymerick.com/2014/07/22/jekyll-github-pages-bower-bootstrap.html) describes a way to manage a Jekyll site hosted on github pages that uses bower (and boostrap).  Note that the approach described there requires the developer to manually run Jekyll to rebuild the site outside of github-pages; you can't just edit through the github GUI and expect github-pages to redeploy the site for you.
 
 # References
 
