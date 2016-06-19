@@ -27,6 +27,10 @@ From [Bower's main web page](https://bower.io/) (retrieved 2016-06-19):
 > Bower is optimized for the front-end. If multiple packages depend on a package&mdash;jQuery for example&mdash;Bower
 > will download jQuery just once. This is known as a flat dependency graph and it helps reduce page load.
 
+# Using Bower with Jekyll and github pages
+
+* http://www.aymerick.com/2014/07/22/jekyll-github-pages-bower-bootstrap.html
+
 # References
 
 * Bower main web page: <https://bower.io/>
