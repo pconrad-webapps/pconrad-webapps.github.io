@@ -78,7 +78,8 @@ In Jekyll a  *layout* specifies the common features of a category of pages on yo
 * homework assignments
 * summaries of lecture notes
 
-Strictly speaking, layouts are optional.   It is possible to create a minimally functional site without providing layouts.  However, it is recommended to provide at least one default layout.   If you don't, while the pages produced will work in most browsers, pages will not be compliant HTML.   For example it is the layout that provides the template for putting in the `<head></head>` section that contains the page `<title></title>` element.   Thus, without a layout, specifying a `title: my title` in the [front matter](https://jekyllrb.com/docs/frontmatter/) will have no effect.
+Strictly speaking, layouts are optional.   It is possible to create a minimally functional site without providing layouts. 
+However, it is recommended to provide at least one default layout.   If you don't, while the pages produced will work in most browsers, pages will not be compliant HTML.   For example it is the layout that provides the template for putting in the `<head></head>` section that contains the page `<title></title>` element.   Thus, without a layout, specifying a `title: my title` in the [front matter](https://jekyllrb.com/docs/frontmatter/) will have no effect.
 
 Layouts are created in the `_layouts` subdirectory of the root of the site repository.
 
@@ -88,7 +89,7 @@ The jekyll documentation provides a good [tutorial on creating a `default.html` 
 * In the `head` element:
     * The `meta` elements provide for UTF-8 encoding, and proper scaling on small devices (e.g. mobile phone browsers).  
     * The `title` element now references `{{page.title}}` which brings in the title from the [front matter](https://jekyllrb.com/docs/frontmatter/) of your `.md` file.
-* In the `body` element, the `{{ content }}` inserts the contents of your `.md` file. 
+* In the `body` element, the `{``{`` content ``}``}` inserts the contents of your `.md` file. 
 * To actually use this, you must insert `layout: default` into the [front matter](https://jekyllrb.com/docs/frontmatter/) of your `.md` files.   If you don't want to have to do this on every single .md file (and why would you?) you can specify this as a default in your `_config.yml` file (see below.)
 
 ~~~
