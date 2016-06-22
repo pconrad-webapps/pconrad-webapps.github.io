@@ -168,6 +168,14 @@ The following page summarizes the syntax of things such as if statements, for lo
 
 <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
 
+# Liquid Gotchas
+
+A common problem I run into with using conditions in liquid templates is that you *must* have space around your operators.
+
+CORRECT: `{% if page.textbook == "HFJ" %}`
+
+INCORRECT: `{% if page.textbook=="HFJ" %}`
+
 # Fenced code blocks
 
 * List of supported languages: <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers>
