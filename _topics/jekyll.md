@@ -89,7 +89,7 @@ The jekyll documentation provides a good [tutorial on creating a `default.html` 
 * In the `head` element:
     * The `meta` elements provide for UTF-8 encoding, and proper scaling on small devices (e.g. mobile phone browsers).  
     * The `title` element now references `{{page.title}}` which brings in the title from the [front matter](https://jekyllrb.com/docs/frontmatter/) of your `.md` file.
-* In the `body` element, the `{``{`` content ``}``}` inserts the contents of your `.md` file. 
+* In the `body` element, the word `content` surrounded by two braces inserts the contents of your `.md` file. 
 * To actually use this, you must insert `layout: default` into the [front matter](https://jekyllrb.com/docs/frontmatter/) of your `.md` files.   If you don't want to have to do this on every single .md file (and why would you?) you can specify this as a default in your `_config.yml` file (see below.)
 
 ~~~
