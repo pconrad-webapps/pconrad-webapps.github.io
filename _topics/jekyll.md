@@ -167,3 +167,7 @@ The template used by Jekyll is called Liquid.
 The following page summarizes the syntax of things such as if statements, for loops, variable assignment, etc:
 
 <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+
+# Fenced code blocks
+
+* List of supported languages: <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers>
