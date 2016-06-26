@@ -173,9 +173,9 @@ The following page summarizes the syntax of things such as if statements, for lo
 
 A common problem I run into with using conditions in liquid templates is that you *must* have space around your operators.
 
-CORRECT: `{% if page.textbook == "HFJ" %}`
+CORRECT: `{``% i``f page.textbook == "HFJ" %}`
 
-INCORRECT: `{% if page.textbook=="HFJ" %}`
+INCORRECT: `{``% i``f page.textbook=="HFJ" %}`
 
 # Fenced code blocks
 
