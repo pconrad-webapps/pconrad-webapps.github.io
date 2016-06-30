@@ -4,17 +4,78 @@ desc: "Static web pages (HTML/CSS) vs. Dynamic Pages (client/server side code)"
 ---
 
 
-Static Web Page vs. Web App
+Static Web Page vs. Dynamic Web App
 ---------------------------
 
-First, let's understand the difference between:
+This page explains the difference between:
 
 -   a static web page
 -   a web app
 
-The short version is that a static web page is simply a "file" on the server containing HTML code. Each time a request comes to a server for that file, it will return the contents of that file as the response. It is straightforward and simple. Static web pages are retrieved with GET requests.
+The short version is that a static web page is simply a "file" on the server containing HTML code. 
+* Each time a request comes to a server for that file, it will return the contents of that file as the response. 
+* The web page looks the same each time you see it
+* It is straightforward and simple.
+* Static web pages are typically retrieved with http `GET` requests.  (We'll discuss what a GET request is later in this article.)
 
-A web app, by contrast, is some custom code that runs on the server that <em>computes</em> the web page that gets returned. Typically, requests made to a web app, contain some <em>parameters</em> that are used to compute the result.
+A web app, by contrast, is some custom code that:
+* runs on the server or the client, or both
+* that <em>computes</em> the web page that you see.
+
+This is sometimes called a dynamic web page, since it can change each time you look it.
+
+Client Side vs. Server Side code
+--------------------------------
+
+Dynamic web pages&mdash;ones that show pages that can be different each time you see them&mdash;can do computations in one of two places: the server side, or the client side.
+
+Let's try to understand how this works, and what the difference is.
+
+First, let's understand this point:
+* Server side code runs on the remote web server in response to a *request* for a page.   It runs on the server once per request, to compute what is sent back to your browser.  By the time the page arrives at your browser, the computation is over.
+* Client side code runs directly in your browser, in a JavaScript interpreter that is tightly integrated into whatever browser you are using.   At least for now (as of 2016), client-side code is JavaScript, and *only* JavaScript.   This code can be running at *any time* while you are looking at the page.
+
+Most of the rest of this article will focus on server side code for dynamic web apps.   We'll deal with client side code for dynamic web apps in another article later one.
+
+HTTP Requests
+-------------
+
+When you bring up a web page in a browser, your browser sends a message to a web server with a *request* for the URL that you put
+in the address bar, or the URL that was in the link that you clicked.
+
+The server looks at the URL and then determines whether it is a request&mdash;from the server's perspective&mdash;for static content, or dynamic content.
+
+HTTP Requests for Static Content
+--------------------------------
+
+It if is static content:
+* The server simple sends back the file requested.  That file is typically an HTML file.
+* That HTML file *might* contain references to other needed files, including embedded images (gifs, jpegs, pngs), CSS files (which control the look of the page: fonts, colors, layout, spacing, etc.).  So far, we are still only talking about static content.
+* That HTML file *might* also contain Javascript code directly inside it, or it might contain references to external JavaScript
+  files.   If so, those JavaScript files will be executed on the client side, possibly resulting in what appears to the user
+  as a dynamic web page.   
+* Whether or not there are JavaScript files, though, from the server's perspective though, this scenario is considered "static", since the server provides the same answer to the same request, every single time, and does *no* computation other than locating the file on the server's disk space that is to be transmitted back to the requester (whether that file is HTML, CSS, an image, or some JavaScript.)
+
+HTTP GET requests
+-----------------
+
+There are several types of HTTP requests.  The message sent over the network contains which type of request it is.  Two of the types
+are called GET and POST.
+
+These various types of requests are called "HTTP methods".  
+
+* If you are studying Object-Oriented Programming, you may know a specfic meaning of the term *method*, but don't be confused.
+* The word *method* here is being used with its ordinary English meaning, and then being defined as a specific technical term in the context of HTTP.    
+* HTTP methods are not methods in an OOP sense; rather they are  different ways (different "methods") of making an HTTP request.
+
+A request for static content typically uses the GET method.  We'll discuss the POST method, later on.
+
+There are quite a few HTTP methods, though you won't need to know about any others for quite a while as you get started with web programming.     (If you just can't wait to learn more, here is an article on [what is beyond GET and POST](/topics/http_beyond_get_and_post).)
+
+HTTP Request Parameters
+-----------------------
+
+Typically, requests made to a web app, contain some <em>parameters</em> that are used to compute the result.
 
 The request to a web app may also be of several different types, with GET and POST being the most common types of requests.
 
