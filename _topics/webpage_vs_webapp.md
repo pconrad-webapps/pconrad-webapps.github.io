@@ -67,8 +67,9 @@ These various types of requests are called "HTTP methods".
 -   Technically, GET and POST are just two of a long list of requests types called <b>HTTP Methods</b>
 -   The full list of them is defined in [Section 9 of the HTTP 1.1 standard, RFC2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html), and includes in addition to GET and POST, these types: OPTIONS, HEAD, DELETE, PUT, TRACE, CONNECT
 -   The ones other than GET and POST, though, are rarely used by folks that are just getting started with web app programming.
+-   GET and POST requests for dynamic content often have *parameters* that are used to compute a result.   More on that later.
 
-That's why many of the books, web sites, and other resources you read will only mention GET and POST, and emphasize when to use one vs. the other. We'll do the same—do keep in mind though, that as your understanding of web applications progresses and you move into the topic of [RESTful APIs](/topics/REST), you'll need to move beyond just GET and POST.   (If you just can't wait to learn more, here is an article on [what is beyond GET and POST](/topics/http_beyond_get_and_post).)
+That's why many of the books, web sites, and other resources you read will only mention GET and POST, and emphasize when to use one vs. the other. We'll do the same—do keep in mind though, that as your understanding of web applications progresses and you move into the topic of [RESTful APIs](/topics/rest), you'll need to move beyond just GET and POST.   (If you just can't wait to learn more, here is an article on [what is beyond GET and POST](/topics/http_beyond_get_and_post).)
 
 A request for static content typically uses the GET method.  We'll discuss the POST method later in this article.
 
@@ -77,13 +78,9 @@ A note about this word "method":
 * The word *method* here is being used with its ordinary English meaning, and then being defined as a specific technical term in the context of HTTP.    
 * HTTP methods are not methods in an OOP sense; rather they are  different ways (different "methods") of making an HTTP request.
 
-HTTP Request Parameters
------------------------
 
-Typically, requests made to a web app, contain some <em>parameters</em> that are used to compute the result.
-
-
-### Static Web Pages
+A simple static Web Page
+------------------------
 
 A **static web page** is what you get when you make a .html file, and put it in your public\_html directory on CSIL. As an example, you might:
 
@@ -94,19 +91,19 @@ A **static web page** is what you get when you make a .html file, and put it in 
     -   `chmod` `-R` `755` `$HOME/public_html`
 -   Access the page at <http://www.cs.ucsb.edu/~yourname/sample.html>
 
-<!-- -->
+```html
+    <!DOCTYPE html>
+    <html>
+     <head>
+       <title>Sample web page</title>
+     </head>
+     <body>
+       <title>Hello, World!</title>
+     </body>
+    </html>
+```
 
-    &lt;!DOCTYPE html&gt;
-    &lt;html&gt;
-     &lt;head&gt;
-       &lt;title&gt;Sample web page&lt;/title&gt;
-     &lt;/head&gt;
-     &lt;body&gt;
-       &lt;p&gt;Hello, world.&lt;/p&gt;
-     &lt;/body&gt;
-    &lt;/html&gt;
-
-### GET request for a static page
+# What happens when you do a GET request for a static page
 
 When you put the URL <http://www.cs.ucsb.edu/~yourname/sample.html> into your browser and hit enter, the browser sends an HTTP message to the server called a"GET" request, and the server responds with the contents of the requested file. It's up to your browser to make sense of the HTML that is returned, and display it properly.
 
@@ -122,15 +119,17 @@ In summary, we have:
 -   Browser opens HTTP connection to HOST and sends "GET" requestfor RESOURCE
 -   Server finds the file that corresponds to RESOURCE, and responds with HTTP response, containing file contents.
 
-### GET requests made to a web app
+# GET requests made to a web app
 
 By contrast, a <b>web app</b> is some code that the web server runs in response to a GET request to <em>calculate</em> the response that will be sent back.
 
 Perhaps the most familiar and commonly used "web app" is Google Search. Consider this URL:
 
+```
     https://www.google.com/search?q=pupplies
+```
 
-### GET parameters
+# GET parameters
 
 Let's break this URL [`https://www.google.com/search?q=pupplies`](https://www.google.com/search?q=pupplies) down into its pieces:
 
