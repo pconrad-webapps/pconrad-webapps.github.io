@@ -1,5 +1,5 @@
 ---
-topic: "REST: Representational State Transfer
+topic: "REST: Representational State Transfer"
 desc: "As in RESTful APIs, and all that."
 ---
 
