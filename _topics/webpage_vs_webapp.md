@@ -59,31 +59,29 @@ It if is static content:
 HTTP GET requests
 -----------------
 
-There are several types of HTTP requests.  The message sent over the network contains which type of request it is.  Two of the types
-are called GET and POST.
+
+The request to a web app may also be of several different types, with GET and POST being the most common types of requests.
 
 These various types of requests are called "HTTP methods".  
 
+-   Technically, GET and POST are just two of a long list of requests types called <b>HTTP Methods</b>
+-   The full list of them is defined in [Section 9 of the HTTP 1.1 standard, RFC2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html), and includes in addition to GET and POST, these types: OPTIONS, HEAD, DELETE, PUT, TRACE, CONNECT
+-   The ones other than GET and POST, though, are rarely used by folks that are just getting started with web app programming.
+
+That's why many of the books, web sites, and other resources you read will only mention GET and POST, and emphasize when to use one vs. the other. We'll do the same—do keep in mind though, that as your understanding of web applications progresses and you move into the topic of [RESTful APIs](/topics/REST), you'll need to move beyond just GET and POST.   (If you just can't wait to learn more, here is an article on [what is beyond GET and POST](/topics/http_beyond_get_and_post).)
+
+A request for static content typically uses the GET method.  We'll discuss the POST method later in this article.
+
+A note about this word "method":
 * If you are studying Object-Oriented Programming, you may know a specfic meaning of the term *method*, but don't be confused.
 * The word *method* here is being used with its ordinary English meaning, and then being defined as a specific technical term in the context of HTTP.    
 * HTTP methods are not methods in an OOP sense; rather they are  different ways (different "methods") of making an HTTP request.
-
-A request for static content typically uses the GET method.  We'll discuss the POST method, later on.
-
-There are quite a few HTTP methods, though you won't need to know about any others for quite a while as you get started with web programming.     (If you just can't wait to learn more, here is an article on [what is beyond GET and POST](/topics/http_beyond_get_and_post).)
 
 HTTP Request Parameters
 -----------------------
 
 Typically, requests made to a web app, contain some <em>parameters</em> that are used to compute the result.
 
-The request to a web app may also be of several different types, with GET and POST being the most common types of requests.
-
--   Technically, GET and POST are just two of a long list of requests types called <b>HTTP Methods</b>
--   The full list of them is defined in [Section 9 of the HTTP 1.1 standard, RFC2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html), and includes in addition to GET and POST, these types: OPTIONS, HEAD, DELETE, PUT, TRACE, CONNECT
--   The ones other than GET and POST, though, are rarely used by folks that are just getting started with web app programming.
-
-That's why many of the books, web sites, and other resources you read will only mention GET and POST, and emphasize when to use one vs. the other. We'll do the same—do keep in mind though, that as your understanding of web applications progresses and you move into the topic of [RESTful APIs](RESTful_APIs "wikilink"), you'll need to move beyond just GET and POST.
 
 ### Static Web Pages
 
