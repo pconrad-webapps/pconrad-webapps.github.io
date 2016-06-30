@@ -162,14 +162,6 @@ A web app:
 -   <em>computes</em> the response that goes back (in HTML, or whatever other format may be needed) based on the requested resource and its parameters
 -   sends that response back to the requester in an HTTP response message
 
-### What are we trying to accomplish again in this lab?
-
--   In this lab, we will <em>create a basic "Hello, World" type web app in Java"</em>
--   To test that, we need to run that on a server somewhere.
--   Configuring a web server for Java is challenging. But, fortunately, we don't have to.
--   Heroku.com offers "platform as a service" cloud computing for Java web applications.
-    -   We'll use the "free plan" that they offer for folks just getting started with learning Heroku.
-    -   This puts your application "on the web", for real, so that anyone in the world can access it 24/7
 
 ### POST requests made to a web app
 
