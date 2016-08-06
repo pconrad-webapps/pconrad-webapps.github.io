@@ -40,3 +40,5 @@ Here's how to do it:
     exclude: [vendor]
     ```
     
+3.   Visit https://travis-ci.org/ and login with your github.com credentials&mdash;the same ones you use to maintain the github repo where the github pages site is stored.
+
