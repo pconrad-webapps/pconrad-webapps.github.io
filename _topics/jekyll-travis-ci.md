@@ -42,3 +42,20 @@ Here's how to do it:
     
 3.   Visit https://travis-ci.org/ and login with your github.com credentials&mdash;the same ones you use to maintain the github repo where the github pages site is stored.
 
+
+
+
+...
+
+
+Eventually, the page you'll visit is the same page as for your github.com repo, except with github.com replaced with travis-ci.org
+
+For example:
+
+For the repo:
+
+https://github.com/ucsd-cse-spis-2016/ucsd-cse-spis-2016.github.io
+
+Access:
+
+https://travis-ci.org/ucsd-cse-spis-2016/ucsd-cse-spis-2016.github.io
