@@ -27,9 +27,16 @@ Here's how to do it:
 
 1.  Add a .travis.yml file to the root of your repo, with the following contents:
 
-```
-language: ruby
-rvm:
-  - 2.1.7
-script: "bundle exec jekyll build"
-```
+    ```
+    language: ruby
+    rvm:
+      - 2.1.7
+    script: "bundle exec jekyll build"
+    ```
+
+2.  Make sure this line is in your _config.yml:
+
+    ```
+    exclude: [vendor]
+    ```
+    
