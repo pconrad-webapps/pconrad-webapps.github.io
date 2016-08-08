@@ -180,3 +180,13 @@ INCORRECT: `{``% i``f page.textbook=="HFJ" %}`
 # Fenced code blocks
 
 * List of supported languages: <https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers>
+
+# Fenced code blocks with line numbers
+
+http://stackoverflow.com/questions/25133223/jekyll-fenced-code-blocks-with-line-numbers
+
+```
+{% highlight python linenos %}
+# code goes here
+{% endhighlight %}
+```
