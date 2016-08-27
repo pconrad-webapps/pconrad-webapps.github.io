@@ -42,3 +42,4 @@ The following is true of webapps written in [Python](/topics/python) using Flask
 Some tutorial information is available at these links.   Eventually I'd like to migrate some of this into this website directly:
 
 * Flask tutorial created for UCSD CSE SPIS 2015: <https://sites.google.com/a/eng.ucsd.edu/spis/home/AcademicProgram/foundations/final-projects/web-apps>
+* Flask tutorials for UCSD CSE SPIS 2016 (scroll down to webapps section) <http://ucsd-cse-spis-2016.github.io/>
