@@ -11,3 +11,6 @@ Python-based web apps can be created in a variety of frameworks, including these
 * Django, not discussed on this site.  See: <https://www.djangoproject.com/>
 * Pyramid, not discussed on this site.  See: <http://www.pylonsproject.org/>
  
+# APIs with Python `requests` module
+
+* <http://engineering.hackerearth.com/2014/08/21/python-requests-module/>
