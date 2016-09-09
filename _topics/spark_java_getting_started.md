@@ -29,10 +29,19 @@ OS name: "linux", version: "4.4.14-200.fc22.x86_64", arch: "amd64", family: "uni
 -bash-4.3$ 
 ```
 
-Here's 
+Here's output where Java works, but Maven doesn't:
 
+```
+Phills-MacBook-Pro:~ pconrad$ java -version
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)
+Phills-MacBook-Pro:~ pconrad$ mvn -version
+-bash: mvn: command not found
+Phills-MacBook-Pro:~ pconrad$ 
+```
 
-
+Since Maven is pure Java software, installing is as simple as downloading the distribution, and then making sure the appropriate `bin` directory is in your path.      We'll defer the details of that process for now, and leave it as an exercise to the student to figure it out&mdash;or just use a platform where it is already installed (such as CSIL.)
 
 # More about Maven
 
@@ -43,6 +52,3 @@ Instead of a `makefile` or a `build.xml` file, Maven uses a file called `pom.xml
 For the most part, this is all you need to know about Maven&mdash;anything else you need to know, we'll introduce as we go
 through the tutorial.
 
-
-
- 
