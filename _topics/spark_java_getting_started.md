@@ -52,3 +52,36 @@ Instead of a `makefile` or a `build.xml` file, Maven uses a file called `pom.xml
 For the most part, this is all you need to know about Maven&mdash;anything else you need to know, we'll introduce as we go
 through the tutorial.
 
+# Starting with a minimal `pom.xml`
+
+As [explained here](https://sparktutorials.github.io/2015/04/02/setting-up-a-spark-project-with-maven.html) a minimal `pom.xml` file for a SparkJava hello world project might start out looking like this.
+
+```xml
+<project>
+    <!-- model version - always 4.0.0 for Maven 2.x POMs -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- project coordinates - values which uniquely identify this project -->
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1.0</version>
+
+    <!-- library dependencies -->
+    <dependencies>
+        <dependency>
+            <groupId>com.sparkjava</groupId>
+            <artifactId>spark-core</artifactId>
+            <version>2.5</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+
+A few things to note:
+
+* The highest level xml element is `<project>`
+* The `<groupId>` element should probably be changed from `com.mycompany.app` to something that uniquely identifies your course, quarter, and either your UCSBNetID, githubid, or csil username, e.g. `edu.ucsb.cs56.f16.lab03.jgaucho`
+* The most important part that actually matters in terms of making the thing work properly is the place where
+    the `<dependency>` element where it indcates that this project depends on an artifact called `spark-core` version `2.5` from `com.sparkjava`.   This part is the part that will cause the appropriate jar files, and any jar files those jar 
+    files depend on, to get downloaded, and put into the classpath.
+
