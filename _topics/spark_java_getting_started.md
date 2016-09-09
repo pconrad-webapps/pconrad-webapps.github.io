@@ -49,10 +49,12 @@ Maven is a build manager similar to the `make` utility used with C/C++, or the `
 
 Instead of a `makefile` or a `build.xml` file, Maven uses a file called `pom.xml` which stands for *Project Object Model*.
 
-For the most part, this is all you need to know about Maven&mdash;anything else you need to know, we'll introduce as we go
-through the tutorial.
+But, Maven requires a bit of getting used to.  You'll probably want to read through this [Maven in 5 minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) tutorial, and work through it at least once on a separate "Hello World" type of project that does NOT involve SparkJava, just to get used to it, before you try Maven on SparkJava.
 
-# Starting with a minimal `pom.xml`
+Once that's done, you can proceed with the steps below.
+
+
+# A minimal `pom.xml` for a SparkJava project
 
 As [explained here](https://sparktutorials.github.io/2015/04/02/setting-up-a-spark-project-with-maven.html) a minimal `pom.xml` file for a SparkJava hello world project might start out looking like this.
 
@@ -85,3 +87,111 @@ A few things to note:
     the `<dependency>` element where it indcates that this project depends on an artifact called `spark-core` version `2.5` from `com.sparkjava`.   This part is the part that will cause the appropriate jar files, and any jar files those jar 
     files depend on, to get downloaded, and put into the classpath.
 
+But it is enough to have this pom.xml?  Of course not.  You also need at least one Java source file, e.g. this one:
+
+```java
+import static spark.Spark.*;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        get("/hello", (req, res) -> "Hello World");
+    }
+}
+```
+
+And that means we have to worry about where to put that `HelloWorld.java` source file in a directory structure.   Maven doesn't want us to just have `HelloWorld.java` and `pom.xml` as siblings in a simple flat directory.   It wants a directory structure more like this one:
+
+For the command:
+
+```
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+
+You get:
+
+```
+my-app
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- mycompany
+    |               `-- app
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- mycompany
+                    `-- app
+                        `-- AppTest.java
+```
+
+So, let's try this with a command more appropriate to our local naming conventions.  NOTE: substitute your own id
+in place of `jgaucho`, e.g. `jsmith`, `kchen`, etc.
+
+```
+mvn archetype:generate -DgroupId=edu.ucsb.cs56.f16.helloSpark.jgaucho \ 
+         -DartifactId=HelloSparkJava \
+         -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+
+Here is the directory tree we get:
+
+```
+-bash-4.3$ tree
+.
+└── HelloSparkJava
+    ├── pom.xml
+    └── src
+        ├── main
+        │   └── java
+        │       └── edu
+        │           └── ucsb
+        │               └── cs56
+        │                   └── f16
+        │                       └── helloSpark
+        │                           └── pconrad
+        │                               └── App.java
+        └── test
+            └── java
+                └── edu
+                    └── ucsb
+                        └── cs56
+                            └── f16
+                                └── helloSpark
+                                    └── pconrad
+                                        └── AppTest.java
+
+18 directories, 3 files
+-bash-4.3$ 
+```
+
+The `pom.xml` that results is this one:
+
+```
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-inst
+ance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.ucsb.cs56.f16.helloSpark.pconrad</groupId>
+  <artifactId>HelloSparkJava</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>HelloSparkJava</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+```
+
+To it, we add the important part, namely this, as a sibling of the other dependency already there:
+
+```
+```
