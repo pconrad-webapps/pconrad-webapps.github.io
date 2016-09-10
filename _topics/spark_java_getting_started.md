@@ -411,3 +411,15 @@ Regrettably, it looks heinous.     It takes the form of another "plugin" that we
 
 But, with that in place, now all is well.  Here's what that looks like:
 
+```
+-bash-4.3$ java -jar target/HelloSparkJava-1.0-SNAPSHOT.jar 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+...
+```
+
+At this point, on whatever machine we are running on (e.g. csil.cs.ucsb.edu) if we go to port 4567, /hello, we'll see
+this web server running, e.g.:
+
+![web server running on csil.cs.ucsb.edu:4567/hello](csil_4567_hello.png)
