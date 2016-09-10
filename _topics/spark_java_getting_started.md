@@ -375,5 +375,39 @@ So, we can use this command:
 java -cp target/HelloSparkJava-1.0-SNAPSHOT.jar edu.ucsb.cs56.f16.helloSpark.pconrad.App
 ```
 
-But that gives us a different error.  It turns out that Maven didn't package up all the jars on which the project depends along with the classes in our project.   There is a recipe to tell Maven to do that though.
+But that gives us a different error.  It turns out that Maven didn't package up all the jars on which the project depends along with the classes in our project.   So we get an error that the class `spark/Request` is not known:
+
+```
+Exception in thread "main" java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: spark/Request
+	at edu.ucsb.cs56.f16.helloSpark.pconrad.App.main(App.java:7)
+```
+
+There is a recipe to tell Maven to fix both problems at once: i.e. to create a so-called *uber jar* (that's [really what they call it](http://maven.apache.org/plugins/maven-shade-plugin/examples/executable-jar.html)) that has all the dependencies baked in, and to specify which main to run so that the jar is executable, all in one fell swoop. 
+
+Regrettably, it looks heinous.     It takes the form of another "plugin" that we put into our pom.xml, right next to the other plug in. Here's what it looks like.  Note the ` <mainClass>edu.ucsb.cs56.f16.helloSpark.pconrad.App</mainClass>` part in the middle is where we specify what the main class should be.
+
+```xml
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>2.4.3</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                  <mainClass>edu.ucsb.cs56.f16.helloSpark.pconrad.App</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+```
+
+But, with that in place, now all is well.  Here's what that looks like:
 
