@@ -208,3 +208,53 @@ To it, we add the important part, namely this, as a sibling of the other depende
     </dependency>                                                                                  
   </dependencies>         
 ```
+
+We also find that way, way down in this directory:
+
+```
+HelloSparkJava/src/main/java/edu/ucsb/cs56/f16/helloSpark/pconrad
+```
+
+There is an App.java file with these contents:
+
+```java
+package edu.ucsb.cs56.f16.helloSpark.pconrad;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+```
+
+We are going to replace that with a main program that actually runs a SparkJava webapp.  Note that other than the package name `edu.ucsb.cs56.f16.helloSpark.pconrad`, and the name
+of the class (`App` instead of `HelloWorld`), this is identical to the example SparkJava webapp in the tutorial
+
+```java
+package edu.ucsb.cs56.f16.helloSpark.pconrad;                                                      
+
+import static spark.Spark.*;                                                                       
+
+public class App {                                                                                 
+    public static void main(String[] args) {                                                       
+        get("/hello", (req, res) -> "Hello World");                                                
+    }                                                                                              
+}                                                                                                  
+```
+
+Now we are ready to do the maven magic.  We type `mvn package`, which according to the [Maven in 5 minutes guide](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html), has the effect of doing all of the following "phases" of a Maven project:
+
+* validate
+* generate-sources
+* process-sources
+* generate-resources
+* process-resources
+* compile
+
+When we are done, what do we do to run the thing?   
