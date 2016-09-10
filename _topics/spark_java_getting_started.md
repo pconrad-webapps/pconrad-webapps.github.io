@@ -191,7 +191,20 @@ ance"
 </project>
 ```
 
-To it, we add the important part, namely this, as a sibling of the other dependency already there:
+To it, we add the important part, namely this, as a sibling of the other dependency already there, so that now the dependencies part looks like this:
 
-```
+```xml
+<dependencies>                                                                                   
+    <dependency>                                                                                   
+      <groupId>junit</groupId>                                                                     
+      <artifactId>junit</artifactId>                                                               
+      <version>3.8.1</version>                                                                     
+      <scope>test</scope>                                                                          
+    </dependency>                                                                                  
+    <dependency>                                                                                   
+      <groupId>com.sparkjava</groupId>                                                             
+      <artifactId>spark-core</artifactId>                                                          
+      <version>2.5</version>                                                                       
+    </dependency>                                                                                  
+  </dependencies>         
 ```
