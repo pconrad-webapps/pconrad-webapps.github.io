@@ -5,6 +5,11 @@ tags:
 - java
 ---
 
+
+
+
+# Preliminaries: you need Java 1.8 and Maven
+
 To get started with SparkJava, you should have, at a minimum, the following in your computing environment:
 
 * Java 1.8 or higher (this is needed because SparkJava depends on Lambda functions which were introduced in Java 1.8)
@@ -43,7 +48,24 @@ Phills-MacBook-Pro:~ pconrad$
 
 Since Maven is pure Java software, installing is as simple as downloading the distribution, and then making sure the appropriate `bin` directory is in your path.      We'll defer the details of that process for now, and leave it as an exercise to the student to figure it out&mdash;or just use a platform where it is already installed (such as CSIL.)
 
-# More about Maven
+
+# The short version
+
+1. Clone the code in this github repo: <https://github.com/pconrad-webapps/sparkjava-hello>
+1. Read the README.md and do what it says to do.
+1. Enjoy a SparkJava HelloWorld.
+
+If you just want to get something working quickly with SparkJava, this short version is the way to go.  You won't understand as much of the Maven Magic that's making everything work, and if it breaks you won't know how to fix it. But you'll be up and running quickly.   
+
+If instead, you need to understand, then the long version takes you through building everything up from scratch.
+
+# The long version 
+
+This version indicates how the code in that other github repo came to be, a little bit at a time. 
+
+# We start with Maven
+
+Like it or not, you can't really do SparkJava without using Maven, or one of the alternatives to Maven such as Gradle, Ivy, or SBT.   Plain old Ant isn't going to cut it.  Sorry.  So let's just dig in.
 
 Maven is a build manager similar to the `make` utility used with C/C++, or the `ant` utility commonly used with Java.
 
@@ -99,7 +121,7 @@ public class HelloWorld {
 }
 ```
 
-And that means we have to worry about where to put that `HelloWorld.java` source file in a directory structure.   Maven doesn't want us to just have `HelloWorld.java` and `pom.xml` as siblings in a simple flat directory.   It wants a directory structure more like this one:
+And that means we have to worry about where to put that `HelloWorld.java` source file in a directory structure.   Maven doesn't want us to just have `HelloWorld.java` and `pom.xml` as siblings in a simple flat directory.   It wants a specific directory structure.  And the best way to get that directory structure is to just let Maven build it for us.
 
 For the command:
 
