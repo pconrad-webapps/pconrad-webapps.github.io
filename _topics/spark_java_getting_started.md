@@ -257,4 +257,123 @@ Now we are ready to do the maven magic.  We type `mvn package`, which according 
 * process-resources
 * compile
 
-When we are done, what do we do to run the thing?   
+But it doesn't work, because it tries by default, to produce code that is backwards compatible with Java 1.5.   And we get this error:
+
+```
+/cs/faculty/pconrad/sparkjava/HelloSparkJava/src/main/java/edu/ucsb/cs56/f16/helloSpark/pconrad/App.java:[7,34] lambda expressions are not supported in -source 1.5
+[ERROR] (use -source 8 or higher to enable lambda expressions)
+```
+
+To fix this, we have to add the following bit of `pom.xml` magic sauce.  This can go in between the `<url>...</url>` element and the `<dependencies>...</dependencies>` element:
+
+```xml
+ <build>                                                                                          
+    <plugins>                                                                                      
+      <plugin>                                                                                     
+        <groupId>org.apache.maven.plugins</groupId>                                                
+        <artifactId>maven-compiler-plugin</artifactId>                                             
+        <version>3.5.1</version>                                                                   
+        <configuration>                                                                            
+          <source>1.8</source>                                                                     
+          <target>1.8</target>                                                                     
+        </configuration>                                                                           
+      </plugin>                                                                                    
+    </plugins>                                                                                     
+  </build>        
+```
+
+And it appears to work!  But what did it do?   Let's try `tree` again and see if we can figure that out:
+
+```
+-bash-4.3$ tree
+.
+├── pom.xml
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── edu
+│   │           └── ucsb
+│   │               └── cs56
+│   │                   └── f16
+│   │                       └── helloSpark
+│   │                           └── pconrad
+│   │                               └── App.java
+│   └── test
+│       └── java
+│           └── edu
+│               └── ucsb
+│                   └── cs56
+│                       └── f16
+│                           └── helloSpark
+│                               └── pconrad
+│                                   └── AppTest.java
+└── target
+    ├── classes
+    │   └── edu
+    │       └── ucsb
+    │           └── cs56
+    │               └── f16
+    │                   └── helloSpark
+    │                       └── pconrad
+    │                           └── App.class
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── HelloSparkJava-1.0-SNAPSHOT.jar
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── edu.ucsb.cs56.f16.helloSpark.pconrad.AppTest.txt
+    │   └── TEST-edu.ucsb.cs56.f16.helloSpark.pconrad.AppTest.xml
+    └── test-classes
+        └── edu
+            └── ucsb
+                └── cs56
+                    └── f16
+                        └── helloSpark
+                            └── pconrad
+                                └── AppTest.class
+
+44 directories, 13 files
+-bash-4.3$ 
+```
+
+In that big mess, you'll see that the classes for App.java and AppTest.java got put into a couple of `classes` and `test-classes` directories.  Even more, there is a `.jar` file for our project that we can run.  
+
+So we might try running that with this command, but we run into a problem:
+
+```
+-bash-4.3$ java -jar target/HelloSparkJava-1.0-SNAPSHOT.jar
+no main manifest attribute, in target/HelloSparkJava-1.0-SNAPSHOT.jar
+-bash-4.3$ 
+```
+
+The jar has no main class.  Sad.  So, what do we do? 
+
+Later on, we'll come back and fix the problem of no main mainfest attribute, because honestly, there should be one. But for now, we know that the main class we want is:
+
+```
+edu.ucsb.cs56.f16.helloSpark.pconrad.App
+```
+
+Of course.  You knew that right?
+
+So, we can use this command:
+
+```
+java -cp target/HelloSparkJava-1.0-SNAPSHOT.jar edu.ucsb.cs56.f16.helloSpark.pconrad.App
+```
+
+But that gives us a different error.  It turns out that Maven didn't package up all the jars on which the project depends along with the classes in our project.   There is a recipe to tell Maven to do that though.
+
