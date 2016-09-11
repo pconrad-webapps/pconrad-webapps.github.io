@@ -44,6 +44,8 @@ Then, in the dependencies, add this.   Swap out `slf4j-simple` or `slf4j-nop` de
     </dependency>
 ```
 
+A repo that has this code in it, working, is here: <https://github.com/pconrad-webapps/sparkjava-hello-improved>
+
 # References
 
 * [DZone Article: Adding SLF4J to your Maven Project](https://dzone.com/articles/adding-slf4j-your-maven)
