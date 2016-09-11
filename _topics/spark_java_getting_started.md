@@ -1,6 +1,7 @@
 ---
 topic: "SparkJava: Getting Started"
 desc: "A more clear tutorial"
+indent: true
 tags:
 - java
 ---
