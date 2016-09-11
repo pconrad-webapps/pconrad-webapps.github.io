@@ -4,8 +4,8 @@ topic: Phill Conrad's Webapp Tutorial Collection
 
 ## Topics
 <ul>
-{% for topic in site.topics %}
- <li><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
+{% for item in site.topics %}
+  <li {% if item.indent %} class="indent" {% endif %} ><a href="{{item.url}}">{{item.topic}}&mdash;{{item.desc}}</a></li>
 {% endfor %}
 </ul>
 
