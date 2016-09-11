@@ -2,6 +2,7 @@
 topic: Jekyll on Heroku
 desc: "Setting up a Jekyll site on Heroku (backup to Github Pages, use add-ons)"
 layout: default
+indent: true
 ---
 
 # Why host a [Jekyll](/topics/jekyll/) site on Heroku
