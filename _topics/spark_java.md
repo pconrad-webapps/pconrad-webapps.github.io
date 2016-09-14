@@ -35,6 +35,27 @@ That tutorial can be found here: [SparkJava: Getting Started](/topics/spark_java
 
 # Getting Started with SparkJava on Heroku
 
+The following repo is a fairly minimal working webapp that runs successfully on Heroku.
+
+* https://github.com/pconrad-webapps/sparkjava-mustache-minimal-demo
+
+The key elements that you need are:
+* A `pom.xml` file that creates a jar file that bundles all dependencies (a so-called uberjar)
+* A `Procfile` with the single line `web: java -jar target/name-of-your-app-here.jar` (note that you will have to put in the correct value for `name-of-your-app-here`.)
+* Some code to set the port number from the PORT environment variable.  
+    * Here's a minimalist one-liner approach.  This may crash if PORT is not defined.
+        ```java
+        Spark.port(Integer.valueOf(System.getenv("PORT"))); // needed for Heroku
+        ```
+    * A more robust approach:
+        ```java
+        try {
+	        Spark.port(Integer.valueOf(System.getenv("PORT"))); // needed for Heroku
+	      } catch (Exception e) {
+	          System.err.println("NOTICE: using default port.  Define PORT env variable to override");
+	      }
+        ```
+ 
 There are several tutorials for getting started with SparkJava on Heroku:
 * Here's one from [SparkJava's tutorials](https://sparktutorials.github.io/2015/08/24/spark-heroku.html)
 * As of 2016-07-01, Heroku's [Getting Started with Java](https://devcenter.heroku.com/articles/getting-started-with-java#introduction) uses SparkJava.  (Note: Heroku changes their tutorial articles from time to time, so by the time you read this, it may no longer be the case.)
