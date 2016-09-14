@@ -40,8 +40,10 @@ The following repo is a fairly minimal working webapp that runs successfully on 
 * https://github.com/pconrad-webapps/sparkjava-mustache-minimal-demo
 
 The key elements that you need are:
+
 * A `pom.xml` file that creates a jar file that bundles all dependencies (a so-called uberjar)
-* A `Procfile` with the single line `web: java -jar target/name-of-your-app-here.jar` (note that you will have to put in the correct value for `name-of-your-app-here`.)
+* A `Procfile` with the single line `web: java -jar target/name-of-your-app-here.jar` 
+    (note that you will have to put in the correct value for `name-of-your-app-here`.)
 * Some code to set the port number from the PORT environment variable.  
     * Here's a minimalist one-liner approach.  This may crash if PORT is not defined.
         ```java
@@ -57,6 +59,7 @@ The key elements that you need are:
         ```
  
 There are several tutorials for getting started with SparkJava on Heroku:
+
 * Here's one from [SparkJava's tutorials](https://sparktutorials.github.io/2015/08/24/spark-heroku.html)
 * As of 2016-07-01, Heroku's [Getting Started with Java](https://devcenter.heroku.com/articles/getting-started-with-java#introduction) uses SparkJava.  (Note: Heroku changes their tutorial articles from time to time, so by the time you read this, it may no longer be the case.)
 * If you are a UCSB student working on CSIL (or a student elsewhere working in a similar "lab computer" environment where you have a Unix account, but you don't have root), this [lab from UCSB's CMPSC56 M16 course](http://ucsb-cs56-m16.github.io/lab/lab03/) may be helpful in getting around the difficulties with installing the Heroku toolbelt on Linux/Unix when you don't have sudo (root) access.
