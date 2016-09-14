@@ -81,3 +81,6 @@ All of these frameworks, however, have a steep learning curve.  To get even the 
 
 With SparkJava, by contrast, with a single source code file (and a proper Maven environment to download the dependencies), you are off and running.     The servlet container is built in to the framework, so there is no separate configuration.
 
+# More Advanced SparkJava Tutorials
+
+* SparkJava + AngularJS + MongoDB: [https://blog.openshift.com/developing-single-page-web-applications-using-java-8-spark-mongodb-and-angularjs/](https://blog.openshift.com/developing-single-page-web-applications-using-java-8-spark-mongodb-and-angularjs/)
