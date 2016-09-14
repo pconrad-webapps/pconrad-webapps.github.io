@@ -446,3 +446,31 @@ At this point, on whatever machine we are running on (e.g. csil.cs.ucsb.edu) if 
 this web server running, e.g.:
 
 ![web server running on csil.cs.ucsb.edu:4567/hello](csil_4567_hello.png)
+
+# Getting it running on Heroku
+
+To get this to run on Heroku, we only need to do these things:
+
+1. Add a one line text file called `Procfile` that has this line in it:
+   ```
+   web:    java -jar target/HelloSparkJava-1.0-SNAPSHOT.jar 
+   ```
+   
+2. Add code to set the port number from an environment variable, like this:
+
+    * A minimalist one-liner approach.  This may crash if PORT is not defined.
+        ```java
+        Spark.port(Integer.valueOf(System.getenv("PORT"))); // needed for Heroku
+        ```
+    * A more robust approach:
+        ```java
+        try {
+	        Spark.port(Integer.valueOf(System.getenv("PORT"))); // needed for Heroku
+	      } catch (Exception e) {
+	          System.err.println("NOTICE: using default port.  Define PORT env variable to override");
+	      }
+        ```
+  
+3.  Using the heroku toolbelt, type `heroku create`, and then `git push heroku master`.   
+
+This should run the pom.xml file to create the uberjar, then execute the Procfile to start the webapp running on the port specified by Heroku.
