@@ -14,6 +14,10 @@ You can read more about SparkJava at:
 * the [SparkJava page on this site](/topics/spark-java/)
 * [SparkJava's own website](http://sparkjava.com/)
 
+# Reviews of SparkJava and comparisons with other frameworks
+* [This article](http://www.javaworld.com/article/2995526/development-tools/jump-into-java-micro-frameworks-part-1.html) compares three
+    Java microframeworks for webapps: Spark, Ninja, and Play. 
+
 # Getting Started with SparkJava locally
 
 The standard [tutorial for getting started with SparkJava](http://sparkjava.com/documentation.html#getting-started) assumes familiarity with a few things that you may not already
