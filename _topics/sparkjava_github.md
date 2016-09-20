@@ -1,5 +1,5 @@
 ---
-topic: "SparkJava: Working with Github API"
+topic: "SparkJava: Github API"
 desc: "Authenticate with Github, then access the Github API"
 indent: true
 tags:
