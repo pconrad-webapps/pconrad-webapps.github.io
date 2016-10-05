@@ -190,3 +190,7 @@ http://stackoverflow.com/questions/25133223/jekyll-fenced-code-blocks-with-line-
 # code goes here
 {% endhighlight %}
 ```
+
+# Enabling LaTeX on a Jekyll Site on Github Pages
+
+TBD
