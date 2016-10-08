@@ -39,9 +39,10 @@ That tutorial can be found here: [SparkJava: Getting Started](/topics/spark_java
 
 # Getting Started with SparkJava on Heroku
 
-The following repo is a fairly minimal working webapp that runs successfully on Heroku.
+The following repos are fairly minimal working webapps that run successfully on Heroku.
 
 * https://github.com/pconrad-webapps/sparkjava-mustache-minimal-demo
+* https://github.com/pconrad-webapps/sparkjava-example
 
 The key elements that you need are:
 
