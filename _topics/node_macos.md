@@ -19,6 +19,10 @@ different projects.
 
 This StackOverflow answer explains more: <http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo>
 
+# Installing `nvm`
+
+See: <https://github.com/creationix/nvm#install-script>
+
 # npm install wants root / sudo.  What should I do?
 
 See this StackOverflow answer: <http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo>
