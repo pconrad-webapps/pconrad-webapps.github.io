@@ -1,6 +1,6 @@
 ---
-topic: Node: MacOS
-desc: Installing and working with Node, npm, nvm on MacOS
+topic: "Node: MacOS"
+desc: "Installing and working with Node, npm, nvm on MacOS"
 indent: true
 ---
 
