@@ -4,6 +4,12 @@ desc: "Installing and working with Node, npm, nvm on MacOS"
 indent: true
 ---
 
+# Install npm packages globally without sudo on macOS 
+
+These instructions work for Linux too.
+
+<https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md>
+
 # Should I install npm or nvm?
 
 Most node tutorials suggest installing node and then using the tool `npm`.
