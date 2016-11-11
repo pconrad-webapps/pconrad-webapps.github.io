@@ -2,6 +2,7 @@
 topic: Jekyll
 desc: "Creating web sites (like this one) on github-pages using Markdown"
 layout: default
+category_prefix: "Jekyll: "
 ---
 
 # Jekyll
