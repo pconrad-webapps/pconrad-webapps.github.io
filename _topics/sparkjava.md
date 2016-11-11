@@ -1,6 +1,7 @@
 ---
 topic: SparkJava
 desc: "A minimalist framework for Java Web Apps"
+category_prefix: "Sparkjava: "
 tags:
 - java
 ---
