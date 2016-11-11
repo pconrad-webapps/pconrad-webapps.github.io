@@ -1,6 +1,7 @@
 ---
 topic: Node
 desc: Making web apps using server-side JavaScript using node.js
+category_prefix: "Node: "
 ---
 
 node.js is a package that can be used to make web applications that run JavaScript on the server side.
