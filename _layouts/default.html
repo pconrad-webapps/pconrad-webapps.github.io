@@ -14,6 +14,9 @@
       {% if page.desc %}
              <p class="topic-summary">{{ page.desc }}</p>
       {% endif %}
+      {% if  page.topic_index_top and page.category_prefix  %}
+        {% include category_index.html %}
+      {% endif %}    
       {{ content }}
       {% if page.category_prefix %}
         {% include category_index.html %}
