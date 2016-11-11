@@ -1,5 +1,5 @@
 ---
-topic: Jekyll on Heroku
+topic: Jekyll: On Heroku
 desc: "Setting up a Jekyll site on Heroku (backup to Github Pages, use add-ons)"
 layout: default
 indent: true
