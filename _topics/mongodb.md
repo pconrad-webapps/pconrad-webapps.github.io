@@ -1,8 +1,7 @@
 ---
 topic: MongoDB
 desc: "A NoSQL database"
-tags:
-- package-managers
+category_prefix: "MongoDB: "
 ---
 
 MongoDB is one of several implementations of what has come to be known as NoSQL databases.
