@@ -2,6 +2,7 @@
   <h2>More on {{page.topic}}</h2>
   <ul>
    {% for topic in site.topics %}
+     <li><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li> 
    {% if topic.topic contains {{page.category_prefix}} or topic.topic contains {{page.category_prefix_alt}} %} 
            <li><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
        {% endif %}
