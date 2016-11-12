@@ -36,9 +36,13 @@ are doing something "wrong", or at the very least, something that is not necessa
 First, fill in the Signup form.
 
 Then, you should see the screen below.   As you can see, near the top of this screen, there is a request to verify your email.
-Look for an email like the one shown at right, and click on the provided link.  There is also a button to "Create a new private deployment".  Click that button.
+Look for an email like the one shown at right, and click on the provided link.  There is also a button under "Private Environments" labelled "Create New".  Click that button, then follow the instructions in the next section.
 
 ![mlab_main_page_new_account.png](mlab_main_page_new_account.png){: style="clear: both;" }
 
-# Creating a new private deployment
+# Creating a New Private Environment
+
+![mlab_main_page_new_account.png](mlab_main_page_new_account.png){: style="clear: both;" }
+
+
 
