@@ -4,6 +4,10 @@ desc: "A specific cloud provider of MongoDB services"
 indent: true
 ---
 
+<div style="display:none;">
+https://pconrad-webapps.github.io/topics/mongodb_mlab
+</div>
+
 # Signing up for an mlab account
 
 To sign up for an account, visit  <http://mlab.com> and click "Signup".
