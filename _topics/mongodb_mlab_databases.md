@@ -20,7 +20,7 @@ To set up a new deployment (which is what MongoDB calls a database), start from 
 
 # Choose Single-Node to get to the free plans
 
-On the screen that follows, <b>you have to hunt a bit<b> to find the <b>free</b> plans.
+On the screen that follows, <b>you have to hunt a bit</b> to find the <b>free</b> plans.
 
 The first step is to click the "Single-Node" button, as shown in the picture below.
 
