@@ -52,12 +52,7 @@ With this, you are ready to start coding.
 * <https://docs.mongodb.com/getting-started/java/client/>
 * <http://www.mkyong.com/tutorials/java-mongodb-tutorials/>
 * <https://www.tutorialspoint.com/mongodb/mongodb_java.htm>
-
-
-* <http://mongodb.github.io/mongo-java-driver/3.3/getting-started/quick-tour/>
-
 * <https://mongodb.github.io/mongo-java-driver/>
-
 * <http://blog.mongodb.org/post/94065240033/getting-started-with-mongodb-and-java-part-i>
 * <http://www.journaldev.com/3963/mongodb-java-crud-example-tutorial>
 * <https://github.com/mongodb/mongo-java-driver>
