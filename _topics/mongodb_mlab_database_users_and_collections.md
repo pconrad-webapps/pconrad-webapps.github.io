@@ -50,7 +50,7 @@ Then, click to create a user:
 
 ![mlab-click-add-database-user.png](mlab-click-add-database-user.png)
 
-Enter the information for the user:
+Enter the information for the user, and click <b>Create</b>:
 
 ![mlab_create_database_user_and_set_password.png](mlab_create_database_user_and_set_password.png)
 
