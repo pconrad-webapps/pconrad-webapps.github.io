@@ -70,3 +70,11 @@ To create a collection:
 You now have an empty collection, ready to use.  It should look something like this:
 
 ![mlab-airlines-collection-with-zero-documents.png](mlab-airlines-collection-with-zero-documents.png)
+
+# Next Steps
+
+Your next steps are to write some code that interacts with your newly created collection.  The way you do that will
+depend on the programming language you are using to write your application.
+
+* [MongoDb: Java](/topics/mongodb_java)
+* [MongoDb: Python](/topics/mongodb_python)
