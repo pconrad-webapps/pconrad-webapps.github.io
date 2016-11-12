@@ -36,13 +36,17 @@ are doing something "wrong", or at the very least, something that is not necessa
 First, fill in the Signup form.
 
 Then, you should see the screen below.   As you can see, near the top of this screen, there is a request to verify your email.
-Look for an email like the one shown at right, and click on the provided link.  There is also a button under "Private Environments" labelled "Create New".  Click that button, then follow the instructions in the next section.
+Look for an email like the one shown at right, and click on the provided link.  
+
+There is also a button under "Private Environments" labelled "Create New".  Before you can create any databases in mlab, you first need to create one of these so-called "private environments".  So, click the "Create New" button, then follow the instructions in the next section.
 
 ![mlab_main_page_new_account.png](mlab_main_page_new_account.png){: style="clear: both;" }
 
 # Creating a New Private Environment
 
-![mlab_main_page_new_account.png](mlab_main_page_new_account.png){: style="clear: both;" }
+MLab bases its services on Amazon cloud computing from of several data centers.  In the page that comes up, you'll be asked to select which of those data centers you want to use.   The default is US-East, but if you live closer to the US-West region, you may want to select that one instead.    You should also give the environment a name. It's reasonable to just use your username for this, as show below.  For the IP address range, just use the default shown.
+
+![mlab_create_new_private_environment.png](mlab_create_new_private_environment.png){: style="clear: both;" }
 
 
 
