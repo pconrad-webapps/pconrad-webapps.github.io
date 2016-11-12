@@ -54,4 +54,13 @@ Enter the information for the user, and click <b>Create</b>:
 
 ![mlab_create_database_user_and_set_password.png](mlab_create_database_user_and_set_password.png)
 
+# Add a collection
 
+Finally, in order to use your new database, you will need at least one collection.
+
+To create a collection:
+
+* Click on the Collections tab, and then click the button to create a new collection.
+* Enter a name for the collection, as shown below
+
+![mlab_database_create_collection_airlines.png](mlab_database_create_collection_airlines.png)
