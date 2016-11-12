@@ -30,7 +30,7 @@ The first step is to click the "Single-Node" button, as shown in the picture bel
 
 The screen that follows has buttons for Amazon, Google and Microsoft cloud services.  As of this writing (November 2016), there is a free sandbox plan based on each of those providers, but each is offered in only one data center so you may have to hunt a bit to find the right settings.  The image below shows one example, based on Microsoft Azure.   Examples of the others are available if you click through the links below.
 
-In any case, enter a database name, and click the create button.
+In any case, enter a database name, and click the "Create new Mongo DB Deployment" button.
 
 ![mlab-create-new-deployment-azure-db-name-and-create-button.png](mlab-create-new-deployment-azure-db-name-and-create-button.png)
 
