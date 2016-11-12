@@ -1,6 +1,6 @@
 ---
-topic: "MongoDB: MLab Databases"
-desc: "Setting up a new database and maintaining it"
+topic: "MongoDB: MLab Database Creation"
+desc: "Setting up a new database"
 indent: true
 ---
 
