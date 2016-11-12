@@ -52,7 +52,8 @@ With this, you are ready to start coding.
     * Maven installation: <http://mongodb.github.io/mongo-java-driver/3.3/driver/getting-started/installation-guide/>
     * Quick Tour: <http://mongodb.github.io/mongo-java-driver/3.3/driver/getting-started/quick-tour/>
     * Quick Tour of DB Admin features: <http://mongodb.github.io/mongo-java-driver/3.3/driver/getting-started/quick-tour-admin/>
-    
+
+* BSON: <http://mongodb.github.io/mongo-java-driver/3.3/bson/documents/>
 * GridFS from Java (for, for example, storing image data): <http://mongodb.github.io/mongo-java-driver/3.3/driver/reference/gridfs/>
 
 # Other references
