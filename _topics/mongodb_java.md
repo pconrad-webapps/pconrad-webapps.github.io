@@ -22,6 +22,13 @@ If you did so, you'll be able to look up the MongoDB URI, something such as:
 mongodb://<dbuser>:<dbpassword>@ds050559.mlab.com:50559/corgis
 ```
 
+<style>
+table {border-collapse: collapse; border: 1px solid black;}
+table * th {border-collapse: collapse; border: 1px solid black;}
+table * td {border-collapse: collapse; border: 1px solid black;}
+</style>
+
+
 The pieces of this are as follows:
 
 | hostname | port | database name |
