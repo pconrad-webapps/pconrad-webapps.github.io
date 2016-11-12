@@ -24,8 +24,10 @@ mongodb://<dbuser>:<dbpassword>@ds050559.mlab.com:50559/corgis
 
 <style>
 table {border-collapse: collapse; border: 1px solid black;}
-table * th {border-collapse: collapse; border: 1px solid black;}
-table * td {border-collapse: collapse; border: 1px solid black;}
+table * th {border-collapse: collapse; border: 1px solid black; padding: 2px; }
+table * td {border-collapse: collapse; border: 1px solid black; padding: 2px;}
+
+
 </style>
 
 
