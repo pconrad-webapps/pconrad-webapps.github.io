@@ -64,3 +64,9 @@ To create a collection:
 * Enter a name for the collection, as shown below, then  click <b>Create</b>:
 
 ![mlab_database_create_collection_airlines.png](mlab_database_create_collection_airlines.png)
+
+# Empty Collection, ready to use
+
+You now have an empty collection, ready to use.  It should look something like this:
+
+![mlab-airlines-collection-with-zero-documents.png](mlab-airlines-collection-with-zero-documents.png)
