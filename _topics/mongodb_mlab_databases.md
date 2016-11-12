@@ -35,3 +35,10 @@ In any case, enter a database name, and click the "Create new Mongo DB Deploymen
 ![mlab-create-new-deployment-azure-db-name-and-create-button.png](mlab-create-new-deployment-azure-db-name-and-create-button.png)
 
 Click to see free sandbox examples based on [Amazon](mlab-create-new-deployment-amazon-sandbox.png){: data-ajax="false" }  [Google](mlab-create-new-deployment-google-sandbox.png){: data-ajax="false" }.  You may have to scroll down in those, past the price tables, to get to the place where you [Enter the database name and click the create button](mlab-create-new-deployment-scroll-down-to-db-name-and-create-button.png){: data-ajax="false" }
+
+# After creating the database, create a User and a Collection
+
+After creating the database, you must create at least one "User" and at least one "Collection".
+
+Instructions for that are on a separate web page: [MongoDB: mlab database users and collections](/topics/mongodb_mlab_database_users_and_collections/)
+
