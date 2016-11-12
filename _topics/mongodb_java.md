@@ -40,3 +40,17 @@ The pieces of this are as follows:
 The `dbuser` and `dbpassword` are whatever you set them to when you [created the database user](/topics/mongodb_mlab_database_users_and_collections/) (they are NOT your [mlab.com](https://mlab.com)  username and password.)
 
 With this, you are ready to start coding.
+
+
+
+# MongoDB Java References
+
+* <https://docs.mongodb.com/ecosystem/drivers/java/>
+* <https://docs.mongodb.com/getting-started/java/client/>
+* <http://www.mkyong.com/tutorials/java-mongodb-tutorials/>
+* <https://www.tutorialspoint.com/mongodb/mongodb_java.htm>
+* <http://mongodb.github.io/mongo-java-driver/2.13/getting-started/quick-tour/>
+* <https://mongodb.github.io/mongo-java-driver/>
+* <http://mongodb.github.io/mongo-java-driver/2.13/>
+* <http://blog.mongodb.org/post/94065240033/getting-started-with-mongodb-and-java-part-i>
+* <http://www.journaldev.com/3963/mongodb-java-crud-example-tutorial>
