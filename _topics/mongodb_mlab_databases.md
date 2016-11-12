@@ -13,7 +13,7 @@ to sign up for an mlab account, and create a so-called "new private environment"
 
 # Setting up a new deployment (database)
 
-To set up a new deployment (which is what MongoDB calls a database), start from the main page.  Click on the button that says "New Deployment", as shown here:
+To set up a new deployment (which is what MongoDB calls a database), start from the main page.  In the section with the heading "Mongo DB Deployments" click on the button that says "Create New", as shown here:
 
 ![mlab-create-deployment-click-create-new.png](mlab-create-deployment-click-create-new.png)
 
