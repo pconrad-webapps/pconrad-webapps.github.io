@@ -22,3 +22,12 @@ If you did so, you'll be able to look up the MongoDB URI, something such as:
 mongodb://<dbuser>:<dbpassword>@ds050559.mlab.com:50559/corgis
 ```
 
+The pieces of this are as follows:
+
+| hostname | port | database name |
+|----------|------|---------------|
+| `ds050559.mlab.com` | `50559` | `corgis` |
+
+The `dbuser` and `dbpassword` are whatever you set them to when you [created the database user](/topics/mongodb_mlab_database_users_and_collections/) (they are NOT your [mlab.com](https://mlab.com)  username and password.)
+
+With this, you are ready to start coding.
