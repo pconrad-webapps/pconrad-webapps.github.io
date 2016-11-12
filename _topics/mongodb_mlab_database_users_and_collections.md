@@ -76,5 +76,5 @@ You now have an empty collection, ready to use.  It should look something like t
 Your next steps are to write some code that interacts with your newly created collection.  The way you do that will
 depend on the programming language you are using to write your application.
 
-* [MongoDB: Java](/topics/mongodb_java)
-* [MongoDB: Python](/topics/mongodb_python)
+* [MongoDB: Java](/topics/mongodb_java/)
+* [MongoDB: Python](/topics/mongodb_python/)
