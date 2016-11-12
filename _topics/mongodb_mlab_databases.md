@@ -18,11 +18,6 @@ To set up a new deployment (which is what MongoDB calls a database), start from 
 ![mlab-create-deployment-click-create-new.png](mlab-create-deployment-click-create-new.png)
 
 
-
-</div>
-
-
-
 # Choose Single-Node to get to the free plans
 
 On the screen that follows, <b>you have to hunt a bit<b> to find the <b>free</b> plans.
