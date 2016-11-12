@@ -44,7 +44,7 @@ There is also a button under "Private Environments" labelled "Create New".  Befo
 
 # Creating a New Private Environment
 
-MLab bases its services on Amazon cloud computing from of several data centers.  In the page that comes up, you'll be asked to select which of those data centers you want to use.   The default is US-East, but if you live closer to the US-West region, you may want to select that one instead.    You should also give the environment a name. It's reasonable to just use your username for this, as show below.  For the IP address range, just use the default shown.
+MLab bases its services on Amazon cloud computing from of several data centers.  In the page that comes up, you'll be asked to select which of those data centers you want to use.   The default is US-East, but if you live closer to the US-West region, you may want to select that one instead.    You should also give the environment a name. It's reasonable to just use your username for this, as show below.  For the IP address range, just use the default shown.  Finally, click the "Create New Private Environment" button.
 
 ![mlab_create_new_private_environment.png](mlab_create_new_private_environment.png){: style="clear: both;" }
 
