@@ -43,10 +43,19 @@ With this, you are ready to start coding.
 
 
 
-# MongoDB Java References
+# MongoDB Java Driver v3.3 References
 
 * Javadoc: <http://api.mongodb.com/java/3.3/>
-* mongo-java-driver v3.3: <http://mongodb.github.io/mongo-java-driver/3.3/>
+* Mongo-java-driver v3.3: <http://mongodb.github.io/mongo-java-driver/3.3/>
+* Connection Settings: <http://mongodb.github.io/mongo-java-driver/3.3/driver/reference/connecting/connection-settings/>
+* Getting Started
+    * Maven installation: <http://mongodb.github.io/mongo-java-driver/3.3/driver/getting-started/installation-guide/>
+    * Quick Tour: <http://mongodb.github.io/mongo-java-driver/3.3/driver/getting-started/quick-tour/>
+    * Quick Tour of DB Admin features: <http://mongodb.github.io/mongo-java-driver/3.3/driver/getting-started/quick-tour-admin/>
+    
+* GridFS from Java (for, for example, storing image data): <http://mongodb.github.io/mongo-java-driver/3.3/driver/reference/gridfs/>
+
+# Other references
 
 * <https://docs.mongodb.com/ecosystem/drivers/java/>
 * <https://docs.mongodb.com/getting-started/java/client/>
