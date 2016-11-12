@@ -5,7 +5,7 @@ indent: true
 ---
 
 <div style="display:none;">
-https://pconrad-webapps.github.io/topics/mongodb_mlab_databases_users_and_collections
+https://pconrad-webapps.github.io/topics/mongodb_mlab_database_users_and_collections
 </div>
 
 The instructions on this page assume that you've:
