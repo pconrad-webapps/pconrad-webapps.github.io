@@ -61,6 +61,6 @@ Finally, in order to use your new database, you will need at least one collectio
 To create a collection:
 
 * Click on the Collections tab, and then click the button to create a new collection.
-* Enter a name for the collection, as shown below
+* Enter a name for the collection, as shown below, then  click <b>Create</b>:
 
 ![mlab_database_create_collection_airlines.png](mlab_database_create_collection_airlines.png)
