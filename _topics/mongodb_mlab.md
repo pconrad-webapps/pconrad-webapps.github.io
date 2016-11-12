@@ -49,4 +49,12 @@ MLab bases its services on Amazon cloud computing from of several data centers. 
 ![mlab_create_new_private_environment.png](mlab_create_new_private_environment.png){: style="clear: both;" }
 
 
+# Using your new private environment
+
+Once you've created your private environment,the main page will look like the one below.  This is the starting point for creating databases.   Creating a new database is described on a separate page, namely: [MongoDB: mlab databases](/topics/mongodb_mlab_databases/).
+
+![mlab_main_page_with_new_private_environment.png](mlab_main_page_with_new_private_environment.png){: style="clear: both;" }
+
+
+
 
