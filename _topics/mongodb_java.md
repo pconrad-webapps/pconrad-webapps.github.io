@@ -45,13 +45,19 @@ With this, you are ready to start coding.
 
 # MongoDB Java References
 
+* Javadoc: <http://api.mongodb.com/java/3.3/>
+* mongo-java-driver v3.3: <http://mongodb.github.io/mongo-java-driver/3.3/>
+
 * <https://docs.mongodb.com/ecosystem/drivers/java/>
 * <https://docs.mongodb.com/getting-started/java/client/>
 * <http://www.mkyong.com/tutorials/java-mongodb-tutorials/>
 * <https://www.tutorialspoint.com/mongodb/mongodb_java.htm>
-* <http://mongodb.github.io/mongo-java-driver/2.13/getting-started/quick-tour/>
+
+
+* <http://mongodb.github.io/mongo-java-driver/3.3/getting-started/quick-tour/>
+
 * <https://mongodb.github.io/mongo-java-driver/>
-* <http://mongodb.github.io/mongo-java-driver/2.13/>
+
 * <http://blog.mongodb.org/post/94065240033/getting-started-with-mongodb-and-java-part-i>
 * <http://www.journaldev.com/3963/mongodb-java-crud-example-tutorial>
 * <https://github.com/mongodb/mongo-java-driver>
