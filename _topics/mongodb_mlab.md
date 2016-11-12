@@ -8,9 +8,13 @@ indent: true
 https://pconrad-webapps.github.io/topics/mongodb_mlab
 </div>
 
-![mlab-account-signup.png](mlab-account-signup.png){: style="float: right; width: 500px;" }
+<div style="float: right; width: 600px;" markdown="1">
 
-![mlab_verify_email_address.png](mlab_verify_email_address.png){: style="float: right; width: 600px;" }
+![mlab-account-signup.png](mlab-account-signup.png)
+
+![mlab_verify_email_address.png](mlab_verify_email_address.png)
+
+</div>
 
 # Signing up for an mlab account
 
