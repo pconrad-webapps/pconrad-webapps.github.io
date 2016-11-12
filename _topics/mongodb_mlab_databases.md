@@ -16,3 +16,21 @@ to sign up for an mlab account, and create a so-called "new private environment"
 To set up a new deployment (which is what MongoDB calls a database), start from the main page.  Click on the button that says "New Deployment", as shown here:
 
 ![mlab-create-deployment-click-create-new.png](mlab-create-deployment-click-create-new.png)
+
+<div style="float:right: width:300px;" markdown="1">
+
+![mlab-create-new-deployment-click-single-node.png](mlab-create-new-deployment-click-single-node.png)
+
+</div>
+
+
+
+# Choose Single-Node to get to the free plans
+
+On the screen that follows, <b>you have to hunt a bit<b> to find the <b>free</b> plans.
+
+The first step is to click the "Single-Node" button, as shown in the picture to the right of this text.
+
+# Choose one of the free Sandbox plans
+
+The screen 
