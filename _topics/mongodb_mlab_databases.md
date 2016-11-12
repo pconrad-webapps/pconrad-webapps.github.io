@@ -17,9 +17,7 @@ To set up a new deployment (which is what MongoDB calls a database), start from 
 
 ![mlab-create-deployment-click-create-new.png](mlab-create-deployment-click-create-new.png)
 
-<div style="float:right: width:300px;" markdown="1">
 
-![mlab-create-new-deployment-click-single-node.png](mlab-create-new-deployment-click-single-node.png)
 
 </div>
 
@@ -29,8 +27,16 @@ To set up a new deployment (which is what MongoDB calls a database), start from 
 
 On the screen that follows, <b>you have to hunt a bit<b> to find the <b>free</b> plans.
 
-The first step is to click the "Single-Node" button, as shown in the picture to the right of this text.
+The first step is to click the "Single-Node" button, as shown in the picture below.
 
-# Choose one of the free Sandbox plans
+![mlab-create-new-deployment-click-single-node.png](mlab-create-new-deployment-click-single-node.png)
 
-The screen 
+# Then, choose one of the free Sandbox plans
+
+The screen that follows has buttons for Amazon, Google and Microsoft cloud services.  As of this writing (November 2016), there is a free sandbox plan based on each of those providers, but each is offered in only one data center so you may have to hunt a bit to find the right settings.  The image below shows one example, based on Microsoft Azure.   Examples of the others are available if you click through the links below.
+
+In any case, enter a database name, and click the create button.
+
+![mlab-create-new-deployment-azure-db-name-and-create-button.png](mlab-create-new-deployment-azure-db-name-and-create-button.png)
+
+Click to see free sandbox examples based on [Amazon](mlab-create-new-deployment-amazon-sandbox.png)  [Google](mlab-create-new-deployment-google-sandbox.png).  You may have to scroll down in those, past the price tables, to get to the place where you [Enter the database name and click the create button](mlab-create-new-deployment-scroll-down-to-db-name-and-create-button.png)
