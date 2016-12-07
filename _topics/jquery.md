@@ -31,6 +31,11 @@ $(document).ready(function(){
 }); // this ends the call to the .ready function
 ```
 
+For an explanation of that example, see: <http://www.cs.ucsb.edu/~pconrad/cs130e/examples/jquery/gettingStarted/>
+
+Use "view source" in a web browser to look at the source of the web page. You'll find the JavaScript code inside one of the `<script>` tags.
+
+
 # References
 
 * [Main JQuery Website](https://jquery.com/): <https://jquery.com/>
