@@ -24,6 +24,28 @@ Here are a few resources for learning JavaScript, and where each one is useful.
 
 * Many, many other JavaScript books in the O'Reilly Digital Library [on campus](http://proquest.safaribooksonline.com/search?q=javascript), [off-campus](http://proquest.safaribooksonline.com.com.proxy.library.ucsb.edu:2048/search?q=javascript)
 
+# How do I even get started?
+
+If you want to work with JavaScript in a web browser, the best way is to start with a simple web page,
+and put JavaScript into a `<script>` element, like this:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+  /* Your code goes here */
+  </script>
+</head>
+
+<body>
+  <p>This is a web page</p>
+</body>
+</html>
+```
+You can create that file with an `.html` extension in any editor, and then open it with any browser.   You don't need any kind of server, or special account, or anything.   You can do it on any computer where you have an editor (e.g. WordPad, TextEdit, etc. though something like vim, emacs or SublimeText is probably better since it will do syntax highlighting and auto-indentation.)
+
+The "compiler/interpreter" is actually built-in to the web browser.   There is also a debugger built into the "JavaScript Console" of some web browsers, which you can often bring up with CTRL/SHIFT/J (Window/Linux) or CMD/SHIFT/J (on Mac).
 
 # JavaScript related topics
 
