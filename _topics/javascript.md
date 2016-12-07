@@ -24,3 +24,8 @@ Here are a few resources for learning JavaScript, and where each one is useful.
 
 * Many, many other JavaScript books in the O'Reilly Digital Library [on campus](http://proquest.safaribooksonline.com/search?q=javascript), [off-campus](http://proquest.safaribooksonline.com.com.proxy.library.ucsb.edu:2048/search?q=javascript)
 
+
+# JavaScript related topics
+
+* [JQuery](/topics/jquery)
+    * <http://www.cs.ucsb.edu/~pconrad/cs130e/examples/jquery/gettingStarted/>
