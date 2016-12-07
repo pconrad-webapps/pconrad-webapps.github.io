@@ -26,6 +26,8 @@ Here are a few resources for learning JavaScript, and where each one is useful.
 
 # How do I even get started?
 
+## In a web browser
+
 If you want to work with JavaScript in a web browser, the best way is to start with a simple web page,
 and put JavaScript into a `<script>` element, like this:
 
@@ -46,6 +48,25 @@ and put JavaScript into a `<script>` element, like this:
 You can create that file with an `.html` extension in any editor, and then open it with any browser.   You don't need any kind of server, or special account, or anything.   You can do it on any computer where you have an editor (e.g. WordPad, TextEdit, etc. though something like vim, emacs or SublimeText is probably better since it will do syntax highlighting and auto-indentation.)
 
 The "compiler/interpreter" is actually built-in to the web browser.   There is also a debugger built into the "JavaScript Console" of some web browsers, which you can often bring up with CTRL/SHIFT/J (Window/Linux) or CMD/SHIFT/J (on Mac).
+
+## Using `node.js`
+
+If you work on a CSIL machine, and/or if you install "node" on your own computer, then you can use the `node` command to enter a JavaScript command line interpreter (Read/Eval/Print Loop).
+
+Here's a sample of that from CSIL.  Note that `console.log` is sort of like a "print" function, but since it's return value is undefined, we see the value `undefined` after each invocation of `console.log` (after its does its job of printing something.)
+
+```
+-bash-4.3$ node
+> console.log("Hello World")
+Hello World
+undefined
+> console.log(2 + 2)
+4
+undefined
+> "foobar".toUpperCase()
+'FOOBAR'
+> 
+```
 
 # JavaScript related topics
 
