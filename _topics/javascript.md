@@ -18,3 +18,7 @@ There are at least three separate aspects of "learning JavaScript" that you may 
 
 Here are a few resources for learning JavaScript, and where each one is useful.
 
+# Resources for Learning JavaScript
+
+* Head First JavaScript, [on campus](http://proquest.safaribooksonline.com/book/programming/javascript/9781449340124), [off-campus](http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/book/programming/javascript/9781449340124)
+
