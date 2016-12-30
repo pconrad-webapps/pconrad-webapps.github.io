@@ -1,5 +1,5 @@
 ---
-topic: Rails: rvm
+topic: "Rails: rvm"
 desc: Ruby Version Manager
 layout: default
 indent: true
