@@ -21,6 +21,6 @@ For apps developed in Rails:
     * It isn't absolutely necessary, but it is very helpful, to install the Ruby Version Manager (rvm) first.
     * Installing rvm allows you, when you are working on Rails project, to be always consistently use the same version of
         Ruby and of Rails each time you work on the project, even across different systems.
-
-
+2.  Create and clone a new github repo
+3.  
 
