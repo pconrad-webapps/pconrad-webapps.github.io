@@ -13,3 +13,7 @@ Follow the instructions at <https://rvm.io/>
 
 You may need to install `gpg` first, which is best installed via `homebrew`.
 
+
+# Learning about rvm
+
+* http://sirupsen.com/get-started-right-with-rvm/
