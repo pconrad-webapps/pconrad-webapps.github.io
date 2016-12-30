@@ -1,6 +1,9 @@
 ---
 topic: Rails
 desc: Developing web apps in Ruby on Rails
+layout: default
+category_prefix: "Rails: "
+topic_index_top: true
 ---
 
 Ruby on Rails, often just called  *Rails* is a web development platform based on the programming language Ruby.
