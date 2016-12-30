@@ -2,6 +2,7 @@
 topic: Rails: rvm
 desc: Ruby Version Manager
 layout: default
+indent: true
 ---
 
 The Ruby Version Manger, `rvm`, allows you to ensure that you are using a consistent version of Ruby and Rails across multiple systems.
