@@ -17,7 +17,7 @@ For apps developed in Rails:
 
 # Getting Started
 
-These instructions use Ruby 2.2.4, per the instructions that were [here for Heroku as of 12/30/2016](https://devcenter.heroku.com/articles/ruby-versions).
+These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2016.    
 
 1.  Install rvm.
     * It isn't absolutely necessary, but it is very helpful, to install the Ruby Version Manager (rvm) first.
@@ -29,10 +29,10 @@ These instructions use Ruby 2.2.4, per the instructions that were [here for Hero
 3.  In the repo, add a file called `Gemfile` with these contents:
     ```
     source "https://rubygems.org"
-    ruby "2.2.4"
+    ruby "2.3.3"
     ```
-4.  Type `rvm use ruby-2.2.4` 
-    * If you get the messsage that ruby-2.2.4 is not installed, type `rvm install ruby-2.2.4` to install it.
+4.  Type `rvm use ruby-2.3.3` 
+    * If you get the messsage that ruby-2.3.3 is not installed, type `rvm install ruby-2.3.3` to install it.
     
 
 
