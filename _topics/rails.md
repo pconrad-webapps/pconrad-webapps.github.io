@@ -53,7 +53,9 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
     Make sure that `gem install nokogiri -v '1.7.0'` succeeds before bundling.
     ```
     
-    If you see that, just do what the error message says: `gem install nokogiri -v '1.7.0'`
+    * If you see that, just do what the error message says: `gem install nokogiri -v '1.7.0'`  
+    * If it still doesn't work:
+        * If on Mac: you may need to install the command line tools for Mac, or a newer version of libxml2
 
 # MacOS Problems
 
