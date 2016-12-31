@@ -49,3 +49,10 @@ At whatever stage you are ready to deploy on Heroku, here's what you need to do.
     * The first URL, e.g. <https://pacific-sierra-80807.herokuapp.com/> is the one at which you will visit your application.
     * The second, e.g. <https://git.heroku.com/pacific-sierra-80807.git> is the git remote that is now called `heroku`, as in `git push heroku master` (instead of `git push origin master`).
     * To deploy, you type `git push heroku master`
+
+5. After typing `git push heroku master` you can monitor the progress of the deploy by navigating to the heroku dashboard for
+    the app, and navigating to the activity tab.  
+    
+    * For example:
+        * If your app is `pacific-sierra-80807`, then
+        * The activity link is: <https://dashboard.heroku.com/apps/pacific-sierra-80807/activity>
