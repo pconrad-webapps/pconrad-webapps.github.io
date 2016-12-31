@@ -100,7 +100,9 @@ While it is not strictly necessary to use rvm and bundler, it does make things c
     
     Then visit <http://localhost:3000> and see if you have a working rails app.
 
-10. You should be able to continue with the standard rails tutorial from step <http://guides.rubyonrails.org/getting_started.html#hello-rails-bang>.  You may want to go back and look at the last part of step 3, which explains the structure of the Rails directories.
+11. If you have a working rails app, commit the code to the github repo.
+
+12. You should be able to continue with the standard rails tutorial from step <http://guides.rubyonrails.org/getting_started.html#hello-rails-bang>.  You may want to go back and look at the last part of step 3, which explains the structure of the Rails directories.
 
 # Next Steps if you want to deploy on Heroku
 
@@ -126,7 +128,17 @@ At whatever stage you are ready to deploy on Heroku, here's what you need to do.
 
 3. At the command line, type `heroku login`, then at the top line of the repo, type `heroku create`.
          
-         
+    ```
+    Phills-MacBook-Pro:rails-app-practice3 pconrad$ heroku create
+    Creating app... done, ⬢ pacific-sierra-80807
+    https://pacific-sierra-80807.herokuapp.com/ | https://git.heroku.com/pacific-sierra-80807.git
+    Phills-MacBook-Pro:rails-app-practice3 pconrad$ 
+    ```
+    
+    * The first URL, e.g. <https://pacific-sierra-80807.herokuapp.com/> is the one at which you will visit your application.
+    * The second, e.g. <https://git.heroku.com/pacific-sierra-80807.git> is the git remote that is now called `heroku`, as in `git push heroku master` (instead of `git push origin master`).
+    * To deploy, you type `git push heroku master`
+    
 # MacOS Problems
 
 Problem: various bundle install things don't work.
