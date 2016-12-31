@@ -69,9 +69,16 @@ While it is not strictly necessary to use rvm and bundler, it does make things c
 gets created in the current directory.
 
     * This will overwrite `.gitignore` and `Gemfile`.  That's ok.
-    * You'll want to manually add the line `ruby "2.3.3"` into that `Gemfile` as the second line   
+    
+9. You'll want to manually add the line `ruby "2.3.3"` into that `Gemfile` as the second line   
 
-9. You should be able to continue with the standard rails tutorial from step 
+10. You should be able to continue with the standard rails tutorial from step <http://guides.rubyonrails.org/getting_started.html#hello-rails-bang>.  You may want to go back and look at the last part of step 3, which explains the structure of the Rails directories.
+
+# Next Steps if you want to deploy on Heroku
+
+At whatever stage you are ready to deploy on Heroku, here's what you need to do.
+
+1. Convert from sqlite3 to postgres if you haven't already.    See: <http://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/>
 
 
 # MacOS Problems
