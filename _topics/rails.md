@@ -26,3 +26,12 @@ For apps developed in Rails:
     * Use the `.gitignore` for Rails
 3.  
 
+
+
+# MacOS Problems
+
+
+Problem: `Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)`
+
+    * Solution: `rvm osx-ssl-certs update all`
+
