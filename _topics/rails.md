@@ -81,6 +81,7 @@ At whatever stage you are ready to deploy on Heroku, here's what you need to do.
 
 1. Convert from sqlite3 to postgres if you haven't already.    See: <http://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/>, or this shorter version:
     * Edit `Gemfile` to remove `gem 'sqlite3'` and insert `gem 'pg'`
+    * Run `bundle install`
     * Use `rake db:setup` and `rake db:migrate` to set up the database.
     * Try `rails server` to see if app still works.
 
