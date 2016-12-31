@@ -31,7 +31,9 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
     source "https://rubygems.org"
     ruby "2.3.3"
     ```
-4.  Type `rvm use ruby-2.3.3` 
+4.  Use the `cd` command to change your current working directory to the top level of your repo.  
+    * If you are already in that directory, `cd ..` then `cd` back into that directory.
+    * The reason is that if `rvm` is working properly, this will signal that you should use the ruby version in the Gemfile, namely `ruby-2.3.3`.
     * If you get the messsage that ruby-2.3.3 is not installed, type `rvm install ruby-2.3.3` to install it.
     
 
