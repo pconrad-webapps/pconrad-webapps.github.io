@@ -63,6 +63,9 @@ gets created in the current directory.
     * This will overwrite `.gitignore` and `Gemfile`.  That's ok.
     * You'll want to manually add the line `ruby "2.3.3"` into that `Gemfile` as the second line   
 
+9. In the instructions, instead of typing `bin/rails server`, use: `bundle exec rails server`
+
+
 
 # MacOS Problems
 
