@@ -20,5 +20,9 @@ but at this point, I only had the binaries for versions 9.5 and 9.6.
 
 The solution, which I stumbled across, is this.  In the app, you have screen that looks like this:
 
-![postgressapp.png](postgressapp.png)
 
+![postgres.app.png](50_postgres.app.png)
+
+![postgres.app.create.new.server.png](50_postgres.app.create.new.server.png)
+
+![postgres.click.plus.png](50_postgres.click.plus.png)
