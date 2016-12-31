@@ -35,7 +35,16 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
     * If you are already in that directory, `cd ..` then `cd` back into that directory.
     * The reason is that if `rvm` is working properly, this will signal that you should use the ruby version in the Gemfile, namely `ruby-2.3.3`.
     * If you get the messsage that ruby-2.3.3 is not installed, type `rvm install ruby-2.3.3` to install it.
+
+5.  Try `gem install bundler`
+6.  If that works, try `bundle install`
+    * Read about bundler here: <http://bundler.io>
     
+7.  If that works, add the following line to your Gemfile, and do `bundle install` again:
+
+    ```
+    gem 'rails', '>= 5.0.0.rc2', '< 5.1'
+    ```
 
 
 # MacOS Problems
