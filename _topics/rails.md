@@ -38,7 +38,7 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
 
 5.  Try `gem install bundler`
 6.  If that works, try `bundle install`
-    * Read about bundler here: <http://bundler.io>
+    * Read about bundler here: <http://bundler.io/v1.5/gemfile.html>
     
 7.  If that works, add the following line to your Gemfile, and do `bundle install` again:
 
