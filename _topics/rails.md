@@ -57,8 +57,11 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
     * If it still doesn't work:
         * If on Mac: you may need to install the command line tools for Mac, or a newer version of libxml2
         
-8.  You are ready for the `rails new thing` command, as in `rails new blog` from the [standard tutorial here](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application)
+8.  You are ready for the `rails init .` command, as in `rails new blog` from the [standard tutorial here](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application).  We use `.` so that the new application
+gets created in the current directory.
 
+    * This will overwrite `.gitignore` and `Gemfile`.  That's ok.
+    * You'll want to manually add the line `ruby "2.3.3"` into that `Gemfile` as the second line   
 
 
 # MacOS Problems
