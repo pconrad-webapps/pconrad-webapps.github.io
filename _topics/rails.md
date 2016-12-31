@@ -85,8 +85,18 @@ At whatever stage you are ready to deploy on Heroku, here's what you need to do.
     * Use `rake db:setup` and `rake db:migrate` to set up the database.
     * Try `rails server` to see if app still works.
 
-2. Add a 
+2. Get the Heroku Toolbelt installed on your local system if possible. 
+    * <b>If you are working in an academic computing environment</b> (e.g. CSIL at UCSB, ACMS at UCSD), you'll probably
+         want to switch to using your own laptop or desktop machine, or a virtual machine where you have root access.
+    * The reason is that in an academic computing environment where you don't have root, (e.g. CSIL at UCSB, 
+         ACMS at UCSD)  getting the Heroku toolbelt installed involves some nasty hacks, and may require more 
+         disk space than you have available (at least that was true as of Fall 2016.  It may or may not be better now.)
+    * Most things can be done without the heroku toolbelt, through the Heroku web interface.  One exception is when
+         you need to do a command such as "heroku exec ...", e.g. for database operations.
 
+
+         
+         
 # MacOS Problems
 
 Problem: various bundle install things don't work.
