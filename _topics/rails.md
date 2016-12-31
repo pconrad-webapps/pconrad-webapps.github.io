@@ -126,7 +126,16 @@ At whatever stage you are ready to deploy on Heroku, here's what you need to do.
     * Most things can be done without the heroku toolbelt, through the Heroku web interface.  One exception is when
          you need to do a command such as "heroku exec ...", e.g. for database operations.
 
-3. At the command line, type `heroku login`, then at the top line of the repo, type `heroku create`.
+3. Add a file named `Procfile` in the root of the directory, with the following contents:
+
+   ```
+   web: bundle exec puma -C config/puma.rb
+   ```
+   
+   This file is the one that tells Heroku "where to start" in our repository to run our application.  It is the Heroku
+   equivalent of running `rails server`.   Commit this file to the repo.
+
+4. At the command line, type `heroku login`, then at the top line of the repo, type `heroku create`.
          
     ```
     Phills-MacBook-Pro:rails-app-practice3 pconrad$ heroku create
