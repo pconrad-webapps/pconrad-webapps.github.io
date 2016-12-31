@@ -91,6 +91,15 @@ While it is not strictly necessary to use rvm and bundler, it does make things c
     
 9. Now manually add the line `ruby "2.3.3"` into the new `Gemfile` after the line `source "https://rubygems.org"`
 
+10. Try running these commands:
+    ```
+    rake db:setup
+    rake db:migrate
+    rails server
+    ```
+    
+    Then visit <http://localhost:3000> and see if you have a working rails app.
+
 10. You should be able to continue with the standard rails tutorial from step <http://guides.rubyonrails.org/getting_started.html#hello-rails-bang>.  You may want to go back and look at the last part of step 3, which explains the structure of the Rails directories.
 
 # Next Steps if you want to deploy on Heroku
