@@ -57,6 +57,10 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
 
 # MacOS Problems
 
+Problem: various bundle install things don't work.
+
+    * Solution: Make sure you have the command line tools installed: `xcode-select --install`
+
 
 Problem: `Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)`
 
