@@ -79,9 +79,10 @@ gets created in the current directory.
 
 At whatever stage you are ready to deploy on Heroku, here's what you need to do.
 
-1. Convert from sqlite3 to postgres if you haven't already.    See: <http://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/>, or this shorter version:
+1. Convert from sqlite3 to postgres if you haven't already.    See: https://medium.com/@helenflam/how-to-change-your-rails-app-database-from-sqlite-to-postgresql-before-deploying-to-heroku-ae2acc25c7ac#.ytirsfz8c>, or this shorter version:
     * Edit `Gemfile` to remove `gem 'sqlite3'` and insert `gem 'pg'`
     * Run `bundle install`
+    * Replace the `config/database.yml` file with appropriate values (TODO: FILL THIS IN)
     * Use `rake db:setup` and `rake db:migrate` to set up the database.
     * Try `rails server` to see if app still works.
 
