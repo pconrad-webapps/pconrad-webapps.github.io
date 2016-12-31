@@ -48,9 +48,10 @@ While it is not strictly necessary to use rvm and bundler, it does make things c
     ```
     source "https://rubygems.org"
     ruby "2.3.3"
+    gem 'rails', '>= 5.0.0.rc2', '< 5.1'
     ```
     
-    This is a temporary Gemfile to specify to rvm which version of Ruby we want to use, so that we can do each of the following things:
+    This is a temporary Gemfile to specify to rvm which version of Ruby and Rails we want to use, so that we can do each of the following things:
     
     * check that `rvm` is working properly 
     * install the "gem" for rails, but *just for this project* (rather than globally on our whole system)
@@ -64,13 +65,7 @@ While it is not strictly necessary to use rvm and bundler, it does make things c
 
 6.  If that works, try `bundle install`
     * Read about bundler here: <http://bundler.io/v1.5/gemfile.html>
-    
-7.  If that works, add the following line to your Gemfile, and do `bundle install` again:
-
-    ```
-    gem 'rails', '>= 5.0.0.rc2', '< 5.1'
-    ```
-    
+        
     * It is quite common to see this error:
     
     ```
