@@ -65,10 +65,11 @@ While it is not strictly necessary to use rvm and bundler, it does make things c
     * If it still doesn't work:
         * If on Mac: you may need to install the command line tools for Mac, or a newer version of libxml2
         
-8.  You are ready for the `rails init .` command, as in `rails new blog` from the [standard tutorial here](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application).  We use `.` so that the new application
+8.  You are ready for the `rails new .` command, as in `rails new blog` from the [standard tutorial here](http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application).  We use `.` so that the new application
 gets created in the current directory.
 
     * This will overwrite `.gitignore` and `Gemfile`.  That's ok.
+    * BETTER: `rails new . --database=postgresql` so that your app uses postgres from the get go.
     
 9. You'll want to manually add the line `ruby "2.3.3"` into that `Gemfile` as the second line   
 
@@ -78,8 +79,12 @@ gets created in the current directory.
 
 At whatever stage you are ready to deploy on Heroku, here's what you need to do.
 
-1. Convert from sqlite3 to postgres if you haven't already.    See: <http://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/>
+1. Convert from sqlite3 to postgres if you haven't already.    See: <http://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/>, or this shorter version:
+    * Edit `Gemfile` to remove `gem 'sqlite3'` and insert `gem 'pg'`
+    * Use `rake db:setup` and `rake db:migrate` to set up the database.
+    * Try `rails server` to see if app still works.
 
+2. Add a 
 
 # MacOS Problems
 
