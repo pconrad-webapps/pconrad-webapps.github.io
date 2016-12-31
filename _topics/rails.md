@@ -19,9 +19,17 @@ For apps developed in Rails:
 
 These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2016.    
 
-1.  Install rvm.
+While it is not strictly necessary to use rvm and bundler, it does make things considerably easier <em>in the long term</em> to start off your Ruby practice that way.
+
+0.  Type `sqlite3 --version` to make sure that you have `sqlite3` on your system.   
+    * Alternatively, you can use `postgres`, which is the preferred option is you are going to deploy on Heroku
+    * For MacOS, download from <http://postgresapp.com/>
+1.  If it isn't already there, install rvm on your system.
     * It isn't absolutely necessary, but it is very helpful, to install the Ruby Version Manager (rvm) first.
-    * Installing rvm allows you, when you are working on Rails project, to be always consistently use the same version of
+    * Working this way, you'll install `rails` through rvm.   This allows you more flexibility in which
+        version of rails you use&mdash;the
+        rails version and ruby version are selected on a per project basis.
+    * Using rvm allows you, when you are working on Rails project, to be always consistently use the same version of
         Ruby and of Rails each time you work on the project, even across different systems.
 2.  Create and clone a new github repo.   
     * Make it public if you want to be able to use various deployment tools for free (Heroku, Travis-CI, etc.)
@@ -63,8 +71,7 @@ gets created in the current directory.
     * This will overwrite `.gitignore` and `Gemfile`.  That's ok.
     * You'll want to manually add the line `ruby "2.3.3"` into that `Gemfile` as the second line   
 
-9. In the instructions, instead of typing `bin/rails server`, use: `bundle exec rails server`
-
+9. You should be able to continue with the standard rails tutorial from step 
 
 
 # MacOS Problems
