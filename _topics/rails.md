@@ -45,7 +45,15 @@ These instructions use Ruby 2.3.3, which was reasonably up-to-date as of 12/30/2
     ```
     gem 'rails', '>= 5.0.0.rc2', '< 5.1'
     ```
-
+    
+    * It is quite common to see this error:
+    
+    ```
+    An error occurred while installing nokogiri (1.7.0), and Bundler cannot continue.
+    Make sure that `gem install nokogiri -v '1.7.0'` succeeds before bundling.
+    ```
+    
+    If you see that, just do what the error message says: `gem install nokogiri -v '1.7.0'`
 
 # MacOS Problems
 
