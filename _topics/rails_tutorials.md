@@ -14,7 +14,9 @@ indent: true
 
 # Specific Topics
 
-## Tests
+## Testing
 
+* "How I Test" : <http://railscasts.com/episodes/275-how-i-test>
+    * "Here I show how I would add tests to the password reset feature created in the previous episode. I use RSpec, Capybara, Factory Girl, and Guard to make request, model, and mailer specs."
 * "Factories not Fixtures": <http://railscasts.com/episodes/158-factories-not-fixtures-revised>
     * "Fixtures are external dependencies which can make tests brittle and difficult to read. In this episode I show how to use Factory Girl to generate the needed records directly in the tests." 
