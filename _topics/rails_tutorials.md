@@ -22,3 +22,9 @@ indent: true
     * "Fixtures are external dependencies which can make tests brittle and difficult to read. In this episode I show how to use Factory Girl to generate the needed records directly in the tests." 
 * "Request Specs and Capybara": <http://railscasts.com/episodes/257-request-specs-and-capybara>
     * "Request specs in RSpec are a great way to ensure the entire application stack is working properly. Here I also show how to use capybara with integrated JavaScript testing using Selenium."
+
+## Authorization
+
+* "How To Configure Devise and OmniAuth for Your Rails Application": <https://www.digitalocean.com/community/tutorials/how-to-configure-devise-and-omniauth-for-your-rails-application> (September 12, 2014)
+* "Devise and OmniAuth (revised)": <http://railscasts.com/episodes/235-devise-and-omniauth-revised>
+    * "In this episode I build upon a standard Devise setup and show how to add 3rd party authentication using OmniAuth. This includes support for user validations and is compatible with normal password authentication." (Jul 13, 2012)
