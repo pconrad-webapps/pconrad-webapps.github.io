@@ -20,3 +20,5 @@ indent: true
     * "Here I show how I would add tests to the password reset feature created in the previous episode. I use RSpec, Capybara, Factory Girl, and Guard to make request, model, and mailer specs."
 * "Factories not Fixtures": <http://railscasts.com/episodes/158-factories-not-fixtures-revised>
     * "Fixtures are external dependencies which can make tests brittle and difficult to read. In this episode I show how to use Factory Girl to generate the needed records directly in the tests." 
+* "Request Specs and Capybara": <http://railscasts.com/episodes/257-request-specs-and-capybara>
+    * "Request specs in RSpec are a great way to ensure the entire application stack is working properly. Here I also show how to use capybara with integrated JavaScript testing using Selenium."
