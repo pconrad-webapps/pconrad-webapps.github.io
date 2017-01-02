@@ -26,6 +26,4 @@ indent: true
 ## Authorization
 
 * "How To Configure Devise and OmniAuth for Your Rails Application": <https://www.digitalocean.com/community/tutorials/how-to-configure-devise-and-omniauth-for-your-rails-application> (September 12, 2014)
-* "Devise and OmniAuth (revised)": <http://railscasts.com/episodes/235-devise-and-omniauth-revised>
-    * "In this episode I build upon a standard Devise setup and show how to add 3rd party authentication using OmniAuth. This includes support for user validations and is compatible with normal password authentication." (Jul 13, 2012)
 * "Devise, CanCanCan, Rolify tutorial": <https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial>
