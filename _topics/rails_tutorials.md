@@ -12,6 +12,11 @@ indent: true
 * Rails for Zombies: <http://railsforzombies.org/>
 * List of other Rails Tutorials: <http://www.skilledup.com/articles/best-free-ruby-rails-tutorials>
 
+# Tutorial Collections
+
+* <http://railsapps.github.io/>
+
+
 # Specific Topics
 
 ## Testing
