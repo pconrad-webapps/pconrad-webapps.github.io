@@ -27,3 +27,4 @@ indent: true
 
 * "How To Configure Devise and OmniAuth for Your Rails Application": <https://www.digitalocean.com/community/tutorials/how-to-configure-devise-and-omniauth-for-your-rails-application> (September 12, 2014)
 * "Devise, CanCanCan, Rolify tutorial": <https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial>
+* "Setting up Devise with Twitter and Facebook and other Omniauth schemes without email addresses": <http://willschenk.com/setting-up-devise-with-twitter-and-facebook-and-other-omniauth-schemes-without-email-addresses/>
