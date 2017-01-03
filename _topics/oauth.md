@@ -1,9 +1,13 @@
 ---
 topic: OAuth
 desc: "The way we implement 'login with Facebook', 'login with Google', etc."
+layout: default
+category_prefix: "OAuth: "
+topic_index_top: true
 tags:
 - oauth
 ---
+
 
 # TODO: Add documentation on OAuth here
 
