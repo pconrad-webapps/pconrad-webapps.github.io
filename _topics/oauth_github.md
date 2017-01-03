@@ -7,6 +7,8 @@ indent: true
 
 # Github Scopes
 
+* <https://developer.github.com/v3/oauth/#scopes>
+
 # Where to put Github Scopes in Rails
 
 
