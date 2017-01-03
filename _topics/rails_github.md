@@ -5,4 +5,4 @@ layout: default
 indent: true
 ---
 
-* "Using Octokit.net to authenticate your app with GitHub": <http://haacked.com/archive/2014/04/24/octokit-oauth/>
+* <https://github.com/octokit/octokit.rb>
