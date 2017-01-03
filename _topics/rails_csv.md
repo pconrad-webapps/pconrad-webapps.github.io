@@ -5,9 +5,11 @@ layout: default
 indent: true
 ---
 
+# Using the built-in Ruby library
 
+* <https://www.sitepoint.com/guide-ruby-csv-library-part/>
 
-# Tools
+# Gems that help with CSV Parsing
 
 * <https://www.ruby-toolbox.com/categories/CSV_Parsers>
     * Index of various CSV parsers
@@ -19,7 +21,7 @@ indent: true
     * "Ruby Gem for smarter importing of CSV Files as Array(s) of Hashes, with optional features for processing large files in parallel, embedded comments, unusual field- and record-separators, flexible mapping of CSV-headers to Hash-keys"
 
 
-# Tutorials
+# Other Tutorials
 
 * <https://gorails.com/episodes/intro-to-importing-from-csv>
-* 
+
