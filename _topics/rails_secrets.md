@@ -1,5 +1,5 @@
 ---
-topic: "Rails: Secrets"
+topic: "Rails: secrets"
 desc: "Keeping passwords, oauth client ids, etc. out of your github repo"
 layout: default
 indent: true
