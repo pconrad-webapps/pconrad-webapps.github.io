@@ -21,7 +21,7 @@ indent: true
 
 ## Testing
 
-See: [Rails: Testing](rails_testing/)
+See: [Rails: Testing](/topics/rails_testing/)
 
 ## Authorization
 
