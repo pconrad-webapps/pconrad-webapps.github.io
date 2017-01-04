@@ -1,5 +1,5 @@
 ---
-topic: "Rails: Authorization"
+topic: "Rails: authorization"
 desc: "Adding login/logout, roles and authorizations"
 layout: default
 indent: true
