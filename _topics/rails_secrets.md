@@ -45,5 +45,5 @@ current environment affected.)
 
 On heroku, the way you load the environment variables is to go to the screen that looks like this, and click on "Reveal Config Vars":
 
-![heroku reveal config vars](heroku_config_vars.png)
+![heroku reveal config vars](heroku_config_vars_50.png)
 
