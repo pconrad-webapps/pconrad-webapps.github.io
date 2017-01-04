@@ -17,8 +17,12 @@ You'll probably then need some kind of differentiation between regular users and
 * `omniauth`: provides login/logout via OAuth (e.g. login with github, facebook, google, twitter, etc.)
 * `rolify`: provides a way to distinguish between different roles: e.g. `user`/`admin`, or `student`/`ta`/`instructor`/`admin`
 * `cancancan`: provides a way to indicate which roles can access which parts of your application
+* `pundit`: an alternative to `cancancan`
 
 These can be combined in various ways.    A few notes:
 
 * It may not be necessary to use `devise` if you are going to use `omniauth`, unless you are allowing the user multiple ways to login.
 
+# Pundit
+
+* Straightforward Rails Authorization with Pundit: <https://www.sitepoint.com/straightforward-rails-authorization-with-pundit/> (By Ilya Bodrov-Krukowski  October 12, 2015)
