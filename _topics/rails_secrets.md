@@ -1,5 +1,5 @@
 ---
-topic: "Rails: Secrets"
+topic: "Rails: secrets"
 desc: "Keeping passwords, oauth client ids, etc. out of your github repo"
 layout: default
 indent: true
@@ -43,8 +43,7 @@ current environment affected.)
 
 # Heroku (through the dashboard)
 
-On heroku, the way you load the environment variables is to go to the screen that looks like this:
+On heroku, the way you load the environment variables is to go to the screen that looks like this, and click on "Reveal Config Vars":
 
-
-
+![heroku reveal config vars](heroku_config_vars_50.png)
 
