@@ -18,6 +18,9 @@ On Mac, you can use:
 brew install sbt
 ```
 
+
 Then:
 
 <https://www.playframework.com/documentation/2.5.x/Installing>
+
+You may like to fork this github repo: <https://github.com/playframework/play-java>   , then clone the fork, cd into the directory and run `sbt`
