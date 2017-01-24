@@ -18,3 +18,6 @@ On Mac, you can use:
 brew install sbt
 ```
 
+Then:
+
+<https://www.playframework.com/documentation/2.5.x/Installing>
