@@ -24,3 +24,6 @@ Then:
 <https://www.playframework.com/documentation/2.5.x/Installing>
 
 You may like to fork this github repo: <https://github.com/playframework/play-java>   , then clone the fork, cd into the directory and run `sbt`
+
+The tutorial there also recommends installing something called "Activator", from here: https://www.lightbend.com/activator/download
+
