@@ -27,3 +27,4 @@ A few documentation tools for JavaScript:
 
 * [groc](http://nevir.github.io/groc/).   Note that as of April 2017, there is no currently ongoing maintenance of this project.   That may change by the time you read this (or not.)
 * [mr doc](https://mr-doc.github.io/mr-doc/)
+* [yuidoc](http://yui.github.io/yuidoc/)   At version 0.10.0 as of April 2017.
