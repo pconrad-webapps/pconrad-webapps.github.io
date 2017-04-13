@@ -23,8 +23,9 @@ and useful tips.
 This [Stack Overflow question](http://stackoverflow.com/questions/6096649/documenting-node-js-projects) asks about tools for documenting
 node.js project.
 
-A few documentation tools for JavaScript:
+A few documentation tools for JavaScript.  This list is in alphabetical order, not order of preference.
 
+* [docco](http://jashkenas.github.io/docco/)
 * [groc](http://nevir.github.io/groc/).   Note that as of April 2017, there is no currently ongoing maintenance of this project.   That may change by the time you read this (or not.)
 * [mr doc](https://mr-doc.github.io/mr-doc/)
 * [yuidoc](http://yui.github.io/yuidoc/)   At version 0.10.0 as of April 2017.
