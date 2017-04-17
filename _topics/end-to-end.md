@@ -19,4 +19,4 @@ This page is a place to document useful information about doing end-to-end testi
 
 # Rails
 
-* https://robots.thoughtbot.com/rspec-integration-tests-with-capybara
+* <https://robots.thoughtbot.com/rspec-integration-tests-with-capybara>
