@@ -16,3 +16,7 @@ graphical visual elements, but just a simulation of that.
 You can interact with Selenium from a number of programming language: Ruby, Python, Java, and JavaScript, just to name a few.
 
 This page is a place to document useful information about doing end-to-end testing for web applications.
+
+# Rails
+
+* https://robots.thoughtbot.com/rspec-integration-tests-with-capybara
