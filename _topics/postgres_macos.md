@@ -8,11 +8,11 @@ tags:
 
 # Postgres via Homebrew
 
-* `brew reinstall postgresql`
-* `brew services start postgres`
+* To reinstall: `brew reinstall postgresql`
+* To start daemon: `brew services start postgres`
 * Get rid of all databases (dangerous): `rm -rf /usr/local/var/postgres`
 * Reinitialize all databases: `initdb /usr/local/var/postgres -E utf8
-* `psql`
+* Access CLI: `psql`
 
 # Upgrading PostgresQL on Mac
 
