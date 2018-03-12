@@ -5,6 +5,22 @@ layout: default
 indent: true
 ---
 
+# Short version
+
+If you are managing your Heroku config vars (e.g. database passwords, OAuth Tokens) that contain secret info that should
+not be in the .git repo, you need to have a strategy and use some good tools.
+
+Two commonly used tools are:
+
+* [dotenv](https://github.com/bkeepers/dotenv)
+* [figaro](https://github.com/laserlemon/figaro)
+
+You can also manage it by hand with a .env file that is in your .gitignore, and a .env.SAMPLE that has a template for the .env that *is* in the repo.  Then, you can use some heroku toolbelt thingies to move information back and forth.
+
+More details below.
+
+# Long version
+
 Sometimes there is secret information such as passwords, oauth client id and secret 
 etc. that your application needs in order to run.     However, it is a bad idea to hard code these in files
 that are going to be stored in github (even in a private repo).
