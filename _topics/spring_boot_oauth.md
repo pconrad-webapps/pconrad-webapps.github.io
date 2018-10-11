@@ -26,3 +26,7 @@ OR
 ```
 https://my-heroku-app-name.herokuapp.com/login/oauth2/code/github
 ```
+
+# OAuth with Spring Boot
+
+* spring-boot-try-github-oauth
