@@ -13,3 +13,7 @@ topic_index_top: true
 Accessible from On-Campus IP Addresses, or through UCSB VPN:
 
 * <https://proquest.safaribooksonline.com/book/programming/java/9781449374631>
+
+# Lots of samples
+
+* <https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples>
