@@ -21,3 +21,11 @@ Accessible from On-Campus IP Addresses, or through UCSB VPN:
 # Custom Error Pages
 
 * <https://hellokoding.com/spring-boot-hello-world-example-with-freemarker/>
+
+# Making it work on Heroku
+
+You must use this line in the heroku maven task.   The part that says `-Dserver.port=$PORT` is particularly important.
+
+```
+<web>java -Dserver.port=$PORT  $JAVA_OPTS -jar target/${project.artifactId}-${project.version}.jar</web>
+```
