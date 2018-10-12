@@ -29,3 +29,14 @@ You must use this line in the heroku maven task.   The part that says `-Dserver.
 ```
 <web>java -Dserver.port=$PORT  $JAVA_OPTS -jar target/${project.artifactId}-${project.version}.jar</web>
 ```
+# Template Engines
+
+## Freemarker
+
+* <http://zetcode.com/articles/springbootfreemarker/>
+
+## Thymeleaf
+
+
+## Mustache
+
