@@ -17,3 +17,7 @@ Accessible from On-Campus IP Addresses, or through UCSB VPN:
 # Lots of samples
 
 * <https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples>
+
+# Custom Error Pages
+
+* <https://hellokoding.com/spring-boot-hello-world-example-with-freemarker/>
