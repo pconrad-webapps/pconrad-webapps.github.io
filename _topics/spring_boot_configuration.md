@@ -36,7 +36,7 @@ We get this result:
 $ grep salt -r src
 src/main/java/com/zetcode/config/Pac4jConfig.java:    @Value("${salt}")
 src/main/java/com/zetcode/config/Pac4jConfig.java:    private String salt;
-src/resources/application.yml:salt: asd8fa9e8fja9we8fje
+src/main/resources/application.yml:salt: asd8fa9e8fja9we8fje
 $ 
 ```
 
@@ -50,7 +50,7 @@ In context, the code looks like this:
 That codes says: at run time, go initialize the value of the private `String` instance variable `salt` from the `application.properties` file (or the equivalant) defined for this application.     This is typically a file on the disk where we can set various configuration properties
 for your application that are resolved at run time instead of compile time.  This allows you to change things without having to recompile your application.   
 
-Under `/src/resources/` the file called `application.properties`  can be used to set various configuration properties
+Under `/src/main/resources/` the file called `application.properties`  can be used to set various configuration properties
 for your application.  As an alternative, the file can be called `application.yml`, and YAML syntax can be used instead of the usual syntax for Java properties files.  (More on this at the links below.  Note that using `.yml` may require an extra dependency in `pom.xml`).
 
 You can also override properties in this file using environment variables; this allows you to separate out 
