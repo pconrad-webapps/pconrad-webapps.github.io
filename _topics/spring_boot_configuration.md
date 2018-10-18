@@ -11,6 +11,20 @@ If you get a message such as this at run time:
 Could not resolve placeholder 'salt' in value "${salt}"
 ```
 
+Here's how to resolve it:
+* Short version:  Type this before you do `mvn spring-boot:run`.  Substitute the name of the missing variable in place of `salt`, and and appropriate value in place of `foobar`.  
+   ```
+   export export SPRING_APPLICATION_JSON='{"salt":"foobar"}'
+   ``` 
+* If there is more than one placeholder variable that cannot be resolved, using JSON syntax to define every name/value pair:
+   ```
+   export export SPRING_APPLICATION_JSON='{"thing1":"peanut butter","thing2":"jelly"}'
+   ``` 
+
+* For the longer version, see below.
+
+# The longer version
+
 You can use this Linux command line trick: `grep salt -r src`
 * `grep` is a "search for string match" program (grep stands for: global regular expression print)
 * `grep salt` searches for the string `salt`.  
