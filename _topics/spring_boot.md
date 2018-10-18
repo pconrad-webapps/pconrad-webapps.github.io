@@ -34,6 +34,7 @@ You must use this line in the heroku maven task.   The part that says `-Dserver.
 ## Freemarker
 
 * <http://zetcode.com/articles/springbootfreemarker/>
+   * <https://github.com/pconrad-webapps/spring-boot-freemarker-zetcode>
 
 ## Thymeleaf
 
