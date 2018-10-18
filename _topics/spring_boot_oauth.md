@@ -15,8 +15,7 @@ This may be more useful
 
 * <https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-oauth2-client>
 
-This may also be relevant:
-
+Section 4 of this document, which describes the OAuth2 client, may also be relevant:
 * <https://docs.spring.io/spring-security-oauth2-boot/docs/current-SNAPSHOT/reference/htmlsingle/>
 
 The format of the Callback URL should apparently be:
