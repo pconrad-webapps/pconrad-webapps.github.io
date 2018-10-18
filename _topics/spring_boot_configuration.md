@@ -98,6 +98,8 @@ You may need this in `pom.xml`.  Some "parent" POM instances already include thi
 </dependency>
 ```
 
+# More on external configuration
+
 For more information, see: 
 
 * Documentation on Externalized Configuration: <https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html>
