@@ -51,7 +51,7 @@ That codes says: at run time, go initialize the value of the private `String` in
 for your application that are resolved at run time instead of compile time.  This allows you to change things without having to recompile your application.   
 
 Under `/src/resources/` the file called `application.properties`  can be used to set various configuration properties
-for your application.  As an alternative, the file can be called `application.yml`, and YAML syntax can be used instead of the usual syntax for Java properties files.  (More on this at the links below.)
+for your application.  As an alternative, the file can be called `application.yml`, and YAML syntax can be used instead of the usual syntax for Java properties files.  (More on this at the links below.  Note that using `.yml` may require an extra dependency in `pom.xml`).
 
 You can also override properties in this file using environment variables; this allows you to separate out 
 some parts of the configuration so that they don't go into version control.  This is *particularly important for sensitive information* such as 
@@ -83,6 +83,19 @@ An example `app.json` (with fake data, of course):
         }
     }
 }
+```
+
+# Using YAML
+
+You may need this in `pom.xml`.  Some "parent" POM instances already include this, but it's safer to specify it just in case.sy
+
+```
+<!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
+<dependency>
+    <groupId>org.yaml</groupId>
+    <artifactId>snakeyaml</artifactId>
+    <version>1.23</version>
+</dependency>
 ```
 
 For more information, see: 
