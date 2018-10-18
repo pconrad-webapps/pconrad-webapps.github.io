@@ -5,6 +5,19 @@ layout: default
 indent: true
 ---
 
+
+Two main alternatives:
+* pac4j: <https://github.com/pac4j/spring-webmvc-pac4j>
+* spring-boot's own approach 
+
+# Pac4j:
+
+Start with this: 
+
+* pac4j: <https://github.com/pac4j/spring-webmvc-pac4j>
+
+# Spring boot's own approach
+
 <https://spring.io/guides/tutorials/spring-boot-oauth2/>
 
 Note that you may also need this information for managing the configuration secrets securely:
