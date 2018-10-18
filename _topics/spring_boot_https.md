@@ -18,3 +18,8 @@ import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletCon
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 ```
+
+You also need to create a keystore:
+
+* <https://support.globalsign.com/customer/en/portal/articles/2121490-java-keytool---create-keystore>
+
