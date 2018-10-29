@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 
 echo "Installing software needed to run Jekyll locally... "
-rvm install ruby-2.1.7
-rvm use 2.1.7
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+[[ -s "/etc/profile.d/rvm.sh" ]] && source "/etc/profile.d/rvm.sh"
+
+
+rvm install ruby-2.5.1
+rvm use 2.5.1
 gem install bundler
 bundle install --path vendor/bundle
 echo "Done."
+
