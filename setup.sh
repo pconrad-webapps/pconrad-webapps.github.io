@@ -2,6 +2,7 @@
 
 echo "Installing software needed to run Jekyll locally... "
 
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 [[ -s "/etc/profile.d/rvm.sh" ]] && source "/etc/profile.d/rvm.sh"
 

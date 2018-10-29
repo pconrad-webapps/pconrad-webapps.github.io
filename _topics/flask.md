@@ -1,6 +1,7 @@
 ---
 topic: Flask
 desc: Making Python-based web apps with Flask
+prefix: "Flask: "
 tags:
 - python
 ---

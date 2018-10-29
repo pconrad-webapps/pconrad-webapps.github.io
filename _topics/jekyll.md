@@ -196,3 +196,7 @@ http://stackoverflow.com/questions/25133223/jekyll-fenced-code-blocks-with-line-
 # Enabling LaTeX on a Jekyll Site on Github Pages
 
 TBD
+
+# For loops and other control structures (using "liquid syntax")
+
+See: <https://help.shopify.com/themes/liquid/objects>

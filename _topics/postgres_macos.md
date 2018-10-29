@@ -6,6 +6,15 @@ tags:
 - database SQL MacOS
 ---
 
+# Postgres via Homebrew
+
+* To reinstall: `brew reinstall postgresql`
+* To start daemon: `brew services start postgres`
+* Get rid of all databases (dangerous): `rm -rf /usr/local/var/postgres`
+* Reinitialize all databases: `initdb /usr/local/var/postgres -E utf8
+* Access CLI: `psql`
+
+# Upgrading PostgresQL on Mac
 
 When upgrading PostgreSQL on Mac, you may run into this error:
 

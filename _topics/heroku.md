@@ -1,6 +1,8 @@
 ---
 topic: Heroku
-desc: Cloud based deployment for Node,Rails,Python,Java webapps
+desc: "Cloud based deployment for Node,Rails,Python,Java webapps"
+category_prefix: "Heroku: "
+topic_index_top: true
 ---
 
 Heroku (<https://heroku.com>) provides entry-level hosting for webapps at no cost.  A credit card is not required for webapps that

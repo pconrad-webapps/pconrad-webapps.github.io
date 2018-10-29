@@ -6,4 +6,6 @@ tags:
 - java
 ---
 
-See: <https://github.com/pconrad-webapps/sparkjava-facebook-api>
+See:
+* <https://developers.facebook.com/docs/facebook-login/>
+* <https://github.com/pconrad-webapps/sparkjava-facebook-api>
