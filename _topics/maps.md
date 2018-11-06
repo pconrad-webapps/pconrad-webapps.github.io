@@ -10,6 +10,7 @@ topic_index_top: true
 * <https://jqueryhouse.com/javascript-libraries-for-building-interactive-map/>
 * <https://www.hongkiat.com/blog/javascript-libraries-for-interactive-maps/>
 * <https://onextrapixel.com/8-javascript-libraries-for-interactive-map-visualizations/>
+* <https://www.iprodev.com/best-javascript-libraries-for-creating-interactive-maps/>
 
 # Free and/or Open Source Solutions
 
