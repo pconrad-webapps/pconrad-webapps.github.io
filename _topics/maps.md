@@ -25,8 +25,7 @@ These are free to use, or at least have a free tier
    * Commerical, but [has a GPL free tier](http://jvectormap.com/licenses-and-pricing/)
 * <http://polymaps.org/>
    * "A JavaScript library for image- and vector-tiled maps using SVG....Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers."
-* <>
-* <>
+
 
 # Commercial Solutions
 
