@@ -16,9 +16,7 @@ topic_index_top: true
 
 These are free to use, or at least have a free tier
 
-* <https://mapchart.net/usa.html>
-   * Allows making a map, but I wasn't able to find an API.  
-   
+
 * <https://leafletjs.com/> 
    * "an open-source JavaScript library for mobile-friendly interactive maps"
 * <https://newsignature.github.io/us-map/>
@@ -35,3 +33,9 @@ These are free to use, or at least have a free tier
 These cost money.  I am including them only so that you can "rule them out" if you are doing web searches (assuming that you don't want to spend the money, which you probably don't if you are doing a student or class project.)
 
 * <https://www.amcharts.com/javascript-maps/>
+
+# Non-Solutions
+
+* <https://mapchart.net/usa.html>
+   * Allows making a map, but I wasn't able to find an API.  
+   
