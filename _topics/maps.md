@@ -25,7 +25,8 @@ These are free to use, or at least have a free tier
    * Commerical, but [has a GPL free tier](http://jvectormap.com/licenses-and-pricing/)
 * <http://polymaps.org/>
    * "A JavaScript library for image- and vector-tiled maps using SVG....Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers."
-
+* <http://turfjs.org/getting-started/>
+   * " Turf, an open source project maintained by Mapbox, is an advanced geospatial JavaScript library that allows you to perform spatial operations in the browser. Turf helps you analyze, aggregate, and transform data in order to visualize it in new ways and answer advanced questions."
 
 # Commercial Solutions
 
