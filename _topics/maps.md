@@ -5,7 +5,7 @@ category_prefix: "Maps: "
 topic_index_top: true
 ---
 
-# List of solutions
+# Lists of solutions
 
 * <https://jqueryhouse.com/javascript-libraries-for-building-interactive-map/>
 * <https://www.hongkiat.com/blog/javascript-libraries-for-interactive-maps/>
@@ -27,6 +27,11 @@ These are free to use, or at least have a free tier
    * "A JavaScript library for image- and vector-tiled maps using SVG....Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers."
 * <http://turfjs.org/getting-started/>
    * " Turf, an open source project maintained by Mapbox, is an advanced geospatial JavaScript library that allows you to perform spatial operations in the browser. Turf helps you analyze, aggregate, and transform data in order to visualize it in new ways and answer advanced questions."
+* <http://kartograph.org/>
+   * "Kartograph is a simple and lightweight framework for building interactive map applications without Google Maps or any other mapping service. It was created with the needs of designers and data journalists in mind."
+   * "Actually, Kartograph is two libraries. One generates beautiful & compact SVG maps; the other helps you to create interactive maps that run across all major browsers."
+
+
 
 # Commercial Solutions
 
