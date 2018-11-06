@@ -32,12 +32,24 @@ These are free to use, or at least have a free tier
    * Apparently, it also has features for doing geographic maps.
    * Here is one example: <http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922>
    * Here is a library built on d3.js: <https://datamaps.github.io/>
+* Google Maps
+   * <http://maplacejs.com/> 
+      * "Maplace.js is a small Google Maps Javascript plugin for jQuery that helps you to embed Google Maps into your website, quickly create markers and controls menu for the locations on map. It requires jQuery and Google Maps API v3 so you need to have both in your page."
+      
 
 # Commercial Solutions
 
 These cost money.  I am including them only so that you can "rule them out" if you are doing web searches (assuming that you don't want to spend the money, which you probably don't if you are doing a student or class project.)
 
 * <https://www.amcharts.com/javascript-maps/>
+
+# Possibly solutions
+
+These appear to be a little more "fringe" than the others, but are intriging.
+
+* <https://github.com/mobomo/stately> 
+   * This presents the interesting idea of state outlines as characters in a web font.
+   
 
 # Non-Solutions
 
