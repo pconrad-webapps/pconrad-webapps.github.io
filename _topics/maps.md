@@ -31,6 +31,7 @@ These are free to use, or at least have a free tier
 * <https://d3js.org/>: D3.js is a web framework for data visualization.  It deserves a whole separate tutorial.  
    * Apparently, it also has features for doing geographic maps.
    * Here is one example: <http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922>
+   * Here is a library built on d3.js: <https://datamaps.github.io/>
 
 # Commercial Solutions
 
