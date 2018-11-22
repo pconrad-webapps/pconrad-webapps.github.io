@@ -46,3 +46,7 @@ https://my-heroku-app-name.herokuapp.com/login/oauth2/code/github
 # OAuth with Spring Boot
 
 * spring-boot-try-github-oauth
+
+# More notes
+
+* There seems to be some movement in terms of updating libraries from an older version to a newer version: <https://groups.google.com/forum/?hl=en#!topic/pac4j-users/VeOMuiYiI6A>
