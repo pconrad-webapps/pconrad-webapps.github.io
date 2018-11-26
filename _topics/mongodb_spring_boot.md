@@ -5,4 +5,4 @@ indent: true
 category_prefix: "MongoDB: "
 ---
 
-TBD
+* <https://spring.io/guides/gs/accessing-data-mongodb/>
