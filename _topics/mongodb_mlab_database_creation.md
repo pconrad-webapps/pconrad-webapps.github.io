@@ -2,6 +2,7 @@
 topic: "MongoDB: MLab Database Creation"
 desc: "Setting up a new database"
 indent: true
+category_prefix: "MongoDB: "
 ---
 
 <div style="display:none;">
