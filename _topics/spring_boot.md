@@ -14,6 +14,10 @@ Accessible from On-Campus IP Addresses, or through UCSB VPN:
 
 * <https://proquest.safaribooksonline.com/book/programming/java/9781449374631>
 
+# Videos
+
+* [Spring Boot MVC](https://www.youtube.com/watch?v=iCQspqBpOB0)
+
 # Lots of samples
 
 * <https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples>
