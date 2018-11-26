@@ -2,6 +2,7 @@
 topic: "MongoDB: Java"
 desc: "Accessing MongoDB via Java"
 indent: true
+category_prefix: "MongoDB: "
 ---
 
 These instructions assume that you have already created a MongoDB instance somewhere.  
