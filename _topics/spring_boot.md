@@ -42,8 +42,11 @@ You must use this line in the heroku maven task.   The part that says `-Dserver.
 
 ## Thymeleaf
 
+* <https://spring.io/guides/gs/handling-form-submission/>
+   * Code (works): <https://github.com/ucsb-cs56-pconrad/spring-boot-thymeleaf-forms>
+   * More complete version of code: <https://github.com/spring-guides/gs-handling-form-submission.git>
 * <http://zetcode.com/articles/springbootthymeleaf/>
-    * <https://github.com/pconrad-webapps/spring-boot-thymeleaf-zetcode>
+    * Code (may not be working yet): <https://github.com/pconrad-webapps/spring-boot-thymeleaf-zetcode>
 
 ## Mustache
 
