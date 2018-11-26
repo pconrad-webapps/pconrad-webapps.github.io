@@ -2,6 +2,7 @@
 topic: "MongoDB: MLab Databases, Users and Collections"
 desc: "Next steps after creating a database"
 indent: true
+category_prefix: "MongoDB: "
 ---
 
 <div style="display:none;">
