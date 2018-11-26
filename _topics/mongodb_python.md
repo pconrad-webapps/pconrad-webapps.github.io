@@ -2,6 +2,7 @@
 topic: "MongoDB: Python"
 desc: "Accessing MongoDB via Python"
 indent: true
+category_prefix: "MongoDB: "
 ---
 
 These instructions assume that you have already created a MongoDB instance somewhere.  
