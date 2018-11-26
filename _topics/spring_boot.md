@@ -42,6 +42,8 @@ You must use this line in the heroku maven task.   The part that says `-Dserver.
 
 ## Thymeleaf
 
+* <http://zetcode.com/articles/springbootthymeleaf/>
+    * <https://github.com/pconrad-webapps/spring-boot-thymeleaf-zetcode>
 
 ## Mustache
 
