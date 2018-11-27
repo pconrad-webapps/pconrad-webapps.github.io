@@ -42,9 +42,19 @@ The `dbuser` and `dbpassword` are whatever you set them to when you [created the
 
 With this, you are ready to start coding.
 
+You may find it helpful, if you are using Spring Boot, to start with this code as an example:
 
+* <https://github.com/pconrad-webapps/simple-java-mlab-demo>
+
+The Spring Boot way of using MongoDB is a bit different from the standard way, i.e. using
+the MongoDB Java Driver; Spring Boot
+provides some nice "middleware" that hides some of the complexity.
+
+See: <https://pconrad-webapps.github.io/topics/mongodb_spring_boot/> for more details.
 
 # MongoDB Java Driver v3.3 References
+
+(This section may not apply if using Spring Boot; instead, see <https://pconrad-webapps.github.io/topics/mongodb_spring_boot/>)
 
 * Javadoc: <http://api.mongodb.com/java/3.3/>
 * Mongo-java-driver v3.3: <http://mongodb.github.io/mongo-java-driver/3.3/>
