@@ -8,6 +8,11 @@ topic_index_top: true
 
 <https://spring.io/projects/spring-boot>
 
+# Getting Started Video Tutorials
+
+* [From Zero to Hero with Spring Boot (Brian Clozel of Pivotal)](https://www.youtube.com/watch?v=aA4tfBGY6jY) (Dec 14, 2017)
+   * Code is here: <https://github.com/bclozel/issues-dashboard>
+
 # Books on O'Reilly Safari Library
 
 Accessible from On-Campus IP Addresses, or through UCSB VPN:
