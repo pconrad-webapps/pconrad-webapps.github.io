@@ -24,3 +24,15 @@ public class HelloApp {
 ```
 
 You can find an example in this tutorial: <https://content.pivotal.io/springone-platform-2017/its-a-kind-of-magic-under-the-covers-of-spring-boot-brian-clozel-st%C3%A9phane-nicoll>
+
+# The annotation `@SpringBootApplication`
+
+The annotation `@SpringBootApplication` is an abbreviation for three annotations:
+
+```
+@SpringBootConfiguration
+@ComponentScan
+@EnableAutoConfiguration
+```
+
+See: <https://www.youtube.com/watch?time_continue=331&v=jDchAEHIht0>
