@@ -109,7 +109,7 @@ For more information, see:
 Configuration includes scanning for classes annotated with `@Component` and `@Bean` 
 
 There are two phases
-* User Configuration (`@ComponentScan`)
-* Auto Configuration (`@EnableAutoConfiguration`)
+* User Configuration (`@ComponentScan`) where the user overrides defaults; this is sometimes called the "user expressing opinions"
+* Auto Configuration (`@EnableAutoConfiguration`) where the framework tries to fill in anything the user didn't specify using the "framework's opinions"
 
 See: <https://www.youtube.com/watch?v=jDchAEHIht0&t=11m55s>
