@@ -104,3 +104,12 @@ For more information, see:
 
 * Documentation on Externalized Configuration: <https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html>
 
+# Configuration in Spring Boot
+
+Configuration includes scanning for classes annotated with `@Component` and `@Bean` 
+
+There are two phases
+* User Configuration (`@ComponentScan`)
+* Auto Configuration (`@EnableAutoConfiguration`)
+
+See: <https://www.youtube.com/watch?v=jDchAEHIht0&t=11m55s>
