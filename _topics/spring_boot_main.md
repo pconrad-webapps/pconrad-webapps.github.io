@@ -36,3 +36,19 @@ The annotation `@SpringBootApplication` is an abbreviation for three annotations
 ```
 
 See: <https://www.youtube.com/watch?time_continue=331&v=jDchAEHIht0>
+
+# The annotation `@ComponentScan`
+
+If this occurs on a class in `com.example.hello`, it will scan:
+
+* `com.example.hello`
+* subpackages of `com.example.hello`, e.g.
+   * `com.example.hello.alpha`
+   * `com.example.hello.bravo`
+   * `com.example.hello.charlie`
+   
+But it will NOT scan:
+
+* `com.example.charlie`
+
+So the `@SpringBootApplication` needs to be on a class that is at the root of your package structure.
