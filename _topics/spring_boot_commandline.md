@@ -27,3 +27,21 @@ This video shows an example: <https://content.pivotal.io/springone-platform-2017
 
 
 The `@Component` annotation is explained here: <http://zetcode.com/springboot/component/>
+
+Part of the magic of Spring is that you can create a constructor for this class, e.g.
+
+```
+  private final HelloService helloService;
+  public MyCommandLineRunner(HelloService helloService) {
+    this.helloService = helloService;
+  }
+
+```
+
+And the cool thing is that:
+*  You never actually have to invoke this constructor.  It gets automatically invoked by the Spring Boot framework
+*  You never have to invoke the constructor for the `HelloService` instance either.  As long as there is some `Bean`
+   that Spring knows about that implements `HelloService`, it will automatically instantiate that `Bean` and pass
+   the instance into the constructor.
+   
+This allows you to change the implementation of `HelloService` while minimizing the changes to the code.
