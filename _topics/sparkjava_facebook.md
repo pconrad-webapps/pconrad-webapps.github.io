@@ -2,8 +2,7 @@
 topic: "SparkJava: Facebook API"
 desc: "Authenticate with Facebook, then access the Facebook API"
 indent: true
-tags:
-- java
+category_prefix: "SparkJava: "
 ---
 
 See:

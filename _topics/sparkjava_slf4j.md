@@ -2,8 +2,7 @@
 topic: "SparkJava: SLF4J"
 desc: "What is the Simple Logging Framework For Java, and how to configure it"
 indent: true
-tags:
-- java
+category_prefix: "SparkJava: "
 ---
 
 If you work with SparkJava, one of the things you'll encounter is that 

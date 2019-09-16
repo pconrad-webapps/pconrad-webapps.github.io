@@ -2,8 +2,7 @@
 topic: "SparkJava: pac4j"
 desc: "Securing a SparkJava webapp, with options for OAuth or LDAP"
 indent: true
-tags:
-- java
+category_prefix: "SparkJava: "
 ---
 
 The library Pac4J, online at [http://www.pac4j.org/](http://www.pac4j.org/) is a kind of swiss army knife for Java Web App Security.  

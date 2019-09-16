@@ -2,8 +2,7 @@
 topic: "SparkJava: Bootstrap"
 desc: "Adding a nicer looking UI, with common navigation, drop down menus, etc."
 indent: true
-tags:
-- java
+category_prefix: "SparkJava: "
 ---
 
 # Using Bootstrap with SparkJava

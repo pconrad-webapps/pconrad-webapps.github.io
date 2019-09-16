@@ -2,8 +2,7 @@
 topic: "SparkJava: Getting Started"
 desc: "A more clear tutorial"
 indent: true
-tags:
-- java
+category_prefix: "SparkJava: "
 ---
 
 
@@ -18,7 +17,7 @@ To get started with SparkJava, you should have, at a minimum, the following in y
 * Maven 
     * To check for Maven, use `mvn -version`
     
-Here's an example of sane output for a suitable computing environment (this happens to be from `csil.cs.ucsb.edu` during September 2016:
+Here's an example of sane output for a suitable computing environment (this happens to be from `csil.cs.ucsb.edu` during September 2016 :
 
 ```
 -bash-4.3$ java -version
