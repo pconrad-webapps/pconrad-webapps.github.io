@@ -55,5 +55,12 @@ def send_slack_message
 
 That's the "old school" way of doing it, if you want to use a low level HTTPS client.   More likely, there will be some Slack API client for your programming language of choice.
 
+For example:
+
+* Ruby
+   * <https://github.com/slack-ruby/slack-ruby-client> Lower Level Library
+   * <https://github.com/slack-ruby/slack-ruby-bot> Higher Level, Builds on [slack-ruby-client](https://github.com/slack-ruby/slack-ruby-client).  "Does the heavy lifting such as message parsing so that you can focus on implementing slack bot commands).
+   
+
 
 
