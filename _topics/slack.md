@@ -21,4 +21,39 @@ To integrate slack into your own webapp, a first step is to create a "Slack App"
    There are also many other things you can do on that page to configure the app.
    
 
+# Creating an incoming webhook
+
+On the page for your slack app, you'll see on the left hand side, a place that says: "Incoming Webhooks".
+
+These allow you to get an endpoint that you can use to post messages to a particular channel on your workspace without
+additional authentication.   The URL itself is the authentication (it is obscure enough to be not guessable).
+
+To create one:
+* Go to the "Incoming Webhooks" page for your slack app.
+* Then scroll down, and you can click "Add New Webhook to Workspace".
+* Select a channel
+* Get the URL
+
+That URL should be treated like a "secret", because anyone having the URL can post to your slack without additional authentication.    To post, it is only necessary to send an HTTPS POST message containing JSON such as:
+
+```
+{"text": "message contents go here"}
+```
+
+For example, this Ruby Code (courtesy of [ProbablyFaiz](https://github.com/ProbablyFaiz) from this [proof-of-concept repo](https://github.com/ProbablyFaiz/RR-Slack-POC)
+
+```
+def send_slack_message
+    url = URI(ENV['SLACK_INCOMING_WEBHOOK_LINK'])
+    https = Net::HTTP.new(url.host, url.port)
+    https.use_ssl = true
+    body = "{'text':'" + params[:message] + "'}"
+    response = https.post(url.path, body)
+    redirect_to root_path
+  end
+```
+
+That's the "old school" way of doing it, if you want to use a low level HTTPS client.   More likely, there will be some Slack API client for your programming language of choice.
+
+
 
